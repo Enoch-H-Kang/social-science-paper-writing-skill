@@ -27,7 +27,7 @@ If a component has no answer to question 4, it is engineering, not a contributio
 7. **Propositions with nearby interpretation.** A plain-words explanation may precede or follow the formal statement. Use interpretive interludes when they clarify the economic force.
 8. **Comparative statics with economic names.** Parameter, direction, and driving force; never bare monotonicity.
 9. **The dichotomy check, when explaining two observed regimes.** Show the model generates both in different parameter regions. For other formal questions, check that the statement answers the question under its assumptions.
-10. **Extensions** address the consequential objections or omitted features; formalize those that need a proposition.
+10. **Extensions** address the consequential objections or omitted features; formalize those that need a proposition. When an extension changes a substantive environment, objective, or benchmark, explain the relevant change and its consequence for the baseline claim. Where a preservation/change contrast clarifies the result, develop it using supported analysis or a labeled illustration. Brief portability or robustness extensions may use a short explanation and appendix pointer; do not require every slot or a fixed closing move.
 
 ## Structural / Estimation Framework
 
@@ -65,7 +65,7 @@ If a component has no answer to question 4, it is engineering, not a contributio
 
 1. Logic: summarize the section's argument in three sentences without notation.
 2. Paragraph: develop a coherent lesson; cases or formal objects may appear before the conclusion.
-3. Sentence: can you say why the reader needs it here? Sentences that exist "for completeness" move to the appendix.
+3. Sentence: can you say why the reader needs it here? Keep definitions, tutorials, and reminders that help readers follow the main argument. Move alternative machinery to an appendix when its main-text appearance has no explanatory or scoping role. Remove or cross-reference repeated identities when the repetition adds no new interpretation or useful orientation; retain explanatory examples.
 
 ## Checklist
 

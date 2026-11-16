@@ -44,6 +44,8 @@ Use the prompts that apply to the paper. If a necessary answer is missing, fix t
 6. **Run the claim map** (Output Contract). Match claims to analytical proofs, estimates and model checks, benchmarks, sourced institutional facts, documented cases, explicitly suggestive descriptives, or implementation arguments at their stated strength.
 7. **Run the adversarial review** in `references/paper-review.md` and revise until no high-risk item is open.
 
+Use a brief reader-facing dependency explanation when the relationship among components would otherwise be difficult to follow. A topic sentence or ordinary roadmap can suffice. At a consequential transition, connect a completed finding to the next question if that connection helps; a section may instead end on its finding, interpretation, limitation, or implementation pointer.
+
 ## The Ten Rules
 
 1. **Start from the practice, dichotomy, or measured obstacle the tool serves.** A market pattern, managerial need, or documented failure of an existing method can establish the question.
@@ -78,7 +80,7 @@ Load only the needed file from `references/`:
 - Introduction: `references/introduction.md`
 - Literature and positioning: `references/literature-and-positioning.md`
 - Model and framework (core guide, three tracks): `references/model-and-framework.md`
-- Results and validation: `references/results-and-validation.md`
+- Results and validation (including an adapted capability-results route for theory): `references/results-and-validation.md`
 - Conclusion: `references/conclusion.md`
 - Pre-submission review: `references/paper-review.md`
 - Style evidence base: `references/style-evidence.md`

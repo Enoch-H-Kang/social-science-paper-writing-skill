@@ -15,6 +15,12 @@ Results follow the track and question. Explain why key results arise. Present re
 5. **Extensions** with propositions where the claim needs them. Irrelevance results are results.
 6. **Research questions** from the introduction are answered by formal results or explanatory prose as appropriate.
 
+For a theory paper whose headline is a capability or sufficiency result, see the adapted capability-results route below.
+
+### Adapted Capability-Results Route
+
+**Editorial adaptation (unverified extrapolation).** The source corpus shows enabling-method rhetoric, but no capability-theorem results template. For a headline capability or sufficiency result, a useful route is: question → precise guarantee and conditions → mechanism → existing bound components and their units → learning-time and computation limits, including what is not established (such as a rate) → supported consequence. Explain only bounds and limits the paper establishes; this route does not require a new rate, a percentage gain, or a numerical cross-check the paper does not have.
+
 ## Structural Arc
 
 **Source and variation.** Estimates, fitted-sample model checks, within-regime simulations, and regime changes follow the structural exemplar. Conditional counterfactual interpretation recurs in the hybrid analytical paper. Independent policy evaluation is a separate empirical design, not an implied feature of this arc.
