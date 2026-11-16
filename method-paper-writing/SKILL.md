@@ -47,7 +47,7 @@ Use the prompts that apply to the paper. If a necessary answer is missing, fix t
 Use a brief reader-facing dependency explanation when the relationship among components would otherwise be difficult to follow. A topic sentence or ordinary roadmap can suffice. At a consequential transition, connect a completed finding to the next question if that connection helps; a section may instead end on its finding, interpretation, limitation, or implementation pointer.
 When a multi-subsection section opens with a roadmap immediately before setup, keep the roadmap navigational; explain economic tradeoffs, such as the option value of waiting, in the setup where the agent's choices appear.
 
-## The Twelve Rules
+## The Thirteen Rules
 
 1. **Start from the practice, dichotomy, or measured obstacle the tool serves.** A market pattern, managerial need, or documented failure of an existing method can establish the question.
 2. **Name the actors, objectives, and relevant constraint or tension.** Describe conflicting incentives when the paper has them; a resource limit or open capability question can also motivate the tool.
@@ -61,6 +61,7 @@ When a multi-subsection section opens with a roadmap immediately before setup, k
 10. **Plain by default.** Write so a smart reader outside the subfield can follow every sentence on first reading. Prefer everyday words to Latinate or nominalized ones, and verbs to noun phrases built from nouns ("decides," not "makes a decision regarding the utilization of"). Define each technical term in plain words at first use; then use the term itself. Dumb down the explanation, never the content: keep the field's term of art, number, and qualification while simplifying how they are said. A sentence fails if a non-specialist must reread it, parse a stack of nested clauses, or look up a word.
 11. **Find citations, never invent them.** Mark claims needing support, verify sources, and attach each citation to its exact claim; follow `references/literature-and-positioning.md`.
 12. **Defend consequential modeling choices.** Use required properties, tractability, institutional fit, or a business constraint. When defending a simplifying simulation or modeling approximation, such as treating empirical sample averages as ground-truth parameters, preserve statistical degree hedges such as "relatively narrow confidence intervals." For an explanatory dichotomy, the model must generate both sides of the phenomenon. For other formal results, check that the statement answers the actual question under its assumptions.
+13. **Keep the main text self-contained.** State and explain in the body every claim, intuition, interpretation, and procedure the headline results depend on. Use appendix references only for proofs, exact formulas, fuller detail, or extra tables — never as the place where a point raised in the body is examined, explained, or specified.
 
 ## Method paper choices
 

@@ -44,6 +44,7 @@
 2. Open a results block by pointing to the relevant table or panel and equating theoretical estimator targets with empirical outcome metrics (for example, "We present the expected rewards (or subscription rates)... in the top panel of Table 8"). Still state headline gains directly in prose, with numbers in sentences rather than behind table pointers.
 3. A "managers should…" sentence may close each results subsection.
 4. Keep headline numbers substantively consistent across sections; compatible rounding and contextual baselines are acceptable.
+5. State findings, magnitudes, and their interpretation in the body. Use the online appendix for fuller tables, robustness detail, and derivations; do not defer the body's interpretation there.
 
 ## Checklist
 

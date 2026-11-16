@@ -79,3 +79,4 @@ Answer each with explicit evidence from the paper.
 8. Every citation in the draft is verified to exist and supports its exact claim; every `[CITATION NEEDED: <the claim>]` placeholder is resolved or reported to the user.
 9. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.
 10. Are identifying assumptions named in the identification argument and tied to the design feature or evidence that satisfies them? Flag separate assumption lists.
+11. Is the main text self-contained? Flag any body passage that raises a substantive point and sends its examination, explanation, or specification to an online appendix.

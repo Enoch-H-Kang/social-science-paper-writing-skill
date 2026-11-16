@@ -77,3 +77,4 @@ Every major claim, especially in the Abstract and Introduction, needs support ap
 8. Every citation in the draft is verified to exist and supports its exact claim; every `[CITATION NEEDED: <the claim>]` placeholder is resolved or reported to the user.
 9. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.
 10. Are conditions stated once, in prose at the objects they constrain? Flag upfront lists, duplicated statements, and formal numbered assumption environments without a needed cross-section handle.
+11. Is the main text self-contained? Flag any body passage that raises a substantive point and sends its examination, explanation, or specification to an appendix.

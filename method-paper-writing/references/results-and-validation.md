@@ -54,6 +54,7 @@ The statement and proof patterns for characterization and equivalence results ha
 3. Cross-check a headline result independently when claiming corroboration or when model dependence makes that check material.
 4. Surface and resolve anomalies; never bury them.
 5. Anchor evaluation-design constraints and simulation parameter choices to descriptive data exhibits with explicit parenthetical cross-references (for example, "Since the number of headlines varies in our dataset (see Table 3)").
+6. Before presenting a result, check that the body presents the procedure or construction it uses, even compactly, and states any interpretation the reader needs, including what a guarantee does and does not say or why a condition must be rechecked in an extension. Leave only the formal proof or reduction to the appendix.
 
 ## Checklist
 
