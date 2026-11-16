@@ -80,3 +80,4 @@ Every major claim, especially in the Abstract and Introduction, needs support ap
 11. Is the main text self-contained? Flag any body passage that raises a substantive point and sends its examination, explanation, or specification to an appendix.
 12. Does the setup follow the reader's building order: primitives with information woven in (observed before unobserved), then timeline or protocol, with the objective or payoff as a component? Flag information structure deferred to the end, derivations or learning, estimation, or solution machinery inside the setup, and question-form or evaluative setup headings.
 13. Flag any condition stated in the setup that only a later variant uses, and any strength contrast or "not required for the main result" disclaimer repeated across sections.
+14. Flag a setup that argues for standard components as if they were novel choices, or that never marks which components are the standard environment for the problem class.

@@ -57,6 +57,7 @@ The introduction may preview a full formal or empirical demonstration that appea
 1. Preview the results that answer the paper's question. Give numbers and baselines for quantitative comparisons; order by the headline contribution.
 2. Label contributions by audience (methodological, substantive, managerial, policy). Use a closest-work contrast when a source supports the precise difference; it need not close each paragraph. See `examples/contribution-statement-template.md`.
 3. The roadmap is optional and is often omitted.
+4. **Check an included roadmap against the paper.** Match section references, order, and body-versus-appendix locations to the final manuscript. Include the major intervening steps in a full-paper roadmap; label a selective preview as selective. Recheck the map after moving or adding sections.
 
 ## Anti-Patterns
 

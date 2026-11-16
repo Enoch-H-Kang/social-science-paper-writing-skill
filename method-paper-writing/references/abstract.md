@@ -4,6 +4,8 @@
 
 A method abstract compresses the argument: the observed pattern, decision problem, or capability sought; the question or obstacle; the offer and its primitive in plain words; and the supported result. The track versions are starting points, not sentence obligations. End on the strongest supported result, payoff, caution, boundary, or implication.
 
+**Compress motivation before the contribution.** Once the task and obstacle are clear, move to what the paper does. Keep an extended hypothetical failure story in the introduction; use the abstract's remaining space for the construction, findings, and their mechanism. Distinguish motivating possibilities from diagnostic results established by the paper.
+
 ## Pre-Writing Questions
 
 1. What question or obstacle motivates the tool? If an existing approach fails, what evidence establishes that failure?
