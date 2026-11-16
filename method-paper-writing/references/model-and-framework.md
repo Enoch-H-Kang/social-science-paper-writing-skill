@@ -14,7 +14,11 @@ For each component, answer in one line:
 
 If a component has no answer to question 4, it is engineering, not a contribution. Describe it in one paragraph and move on.
 
+For theory infrastructure, also ask which claimed result the component enables. A necessary definition, construction, or technical lemma may merit full treatment even when it is not a standalone economic contribution.
+
 ## Analytical / Game-Theoretic Model
+
+For theorem statements, result dependencies, and proof writing, read [Theorem Statements and Proofs](theorem-and-proof-style.md). Use its characterization or equivalence route when that better fits the question than the candidate-equilibrium and benchmark sequence below.
 
 **Source and variation.** The candidate-equilibrium, benchmark, main-result, comparative-static, and extension sequence follows the theory exemplar. Nearby interpretation recurs in the analytical hybrid. The numbered steps and proposition-by-objection structure are adaptable presentation aids.
 
@@ -22,7 +26,7 @@ If a component has no answer to question 4, it is engineering, not a contributio
 2. **Setup.** Introduce notation as needed, each symbol defined in the sentence that introduces it, with its economic meaning.
 3. **Defend functional forms.** List the required properties, then choose the simplest form that satisfies them. Absorb objections into footnotes.
 4. **Equilibrium concept and why it fits,** explained at the length the reader needs.
-5. **Candidate equilibrium first.** State the equilibrium you will verify, then verify it.
+5. **Candidate equilibrium when applicable.** State the equilibrium you will verify, then verify it. For set characterizations or equivalence results, define the relevant objects and establish the supporting results needed for the headline claim.
 6. **Benchmark model, when useful.** A no-X benchmark can clarify the main result; place it before the result it interprets.
 7. **Propositions with nearby interpretation.** A plain-words explanation may precede or follow the formal statement. Use interpretive interludes when they clarify the economic force.
 8. **Comparative statics with economic names.** Parameter, direction, and driving force; never bare monotonicity.

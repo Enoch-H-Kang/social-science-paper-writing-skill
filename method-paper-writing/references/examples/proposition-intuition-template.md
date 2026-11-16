@@ -8,16 +8,20 @@ One presentation option for an analytical result: formal statement with nearby i
 % (1) Optional plain-words preview or setup
 % (2) Formal statement: Proposition N, with a proof pointer if appropriate
 % (3) Interpretation paragraph(s): map to real behavior; name the economic concept
-% (4) Comparative-static sentence(s) in economic terms
+% (4) Comparative-static sentence(s) in economic terms, if established and relevant
 % (5) Optional counterintuition flag
 ```
+
+For a characterization or equivalence result, use the [theory statement and proof guide](../theorem-and-proof-style.md). A useful alternative is: local question and definitions → precise statement → interpretation or proof explanation → proof in the body or a verified pointer. A result may also summarize a derivation already given. These are options, not a fixed sequence.
+
+Inside the statement, make the conclusion, changing conditions, and consequential quantifiers explicit. Outside it, explain the mechanism, scope, or special case. Include a comparative static only when it is established and relevant. Do not insert an appendix pointer when the proof is in the body, precedes the statement, or is an explicitly attributed established result.
 
 ## Skeleton
 
 1. **Optional preview.** `[What happens], for [whom], because [one-sentence mechanism].` A formal object may come first instead.
 2. **Formal statement.** `Proposition N. [Formal statement.] (Proof in Appendix [X].)`
 3. **Interpretation.** `In words, [restatement]. This is an instance of [economic concept]: [one sentence tying the result to observed behavior].`
-4. **Comparative static.** `[Formal direction, if proved.]` Explain the parameter's economic meaning and driving force nearby.
+4. **Comparative static (if established and relevant).** `[Formal direction, if proved.]` Explain the parameter's economic meaning and driving force nearby.
 5. **Counterintuition flag (optional).** `Notably, [result] runs against the intuition that [naive view]: [one-sentence reason].`
 
 ## Illustrative information-choice example

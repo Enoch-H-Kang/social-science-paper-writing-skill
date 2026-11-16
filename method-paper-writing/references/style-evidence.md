@@ -2,7 +2,7 @@
 
 This file records the source papers the rules in this skill were distilled from, so a user or a future editor can check a rule against its source. The patterns are paraphrases of structure and rhetoric, not reproductions of the papers' text.
 
-Sampled venues: *Management Science* and *Marketing Science*, plus one manuscript. Other journals named in the entrypoint are target venues, not sources of this evidence.
+The original method corpus samples *Management Science* and *Marketing Science*, plus one manuscript. The supplementary theory corpus below supports the theory statement and proof guidance. Other journals named in the entrypoint are target venues, not sources of the original method evidence.
 
 ## The Corpus (method track)
 
@@ -12,6 +12,17 @@ Sampled venues: *Management Science* and *Marketing Science*, plus one manuscrip
 | The Value of Reputation in an Online Freelance Marketplace (Marketing Science, 2013) | Structural exemplar | Descriptive regularity is followed by measured rival-model failure and computational infeasibility; a tractable construction enables counterfactuals. The abstract closes on a counterfactual payoff and intended audience. |
 | LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments (2024 arXiv manuscript, arXiv:2406.02611) | ML-method exemplar | Operational need opens the abstract; tested pure approaches are diagnosed before the hybrid. The abstract closes on bounded applicability, while deployment conditions appear later. Supplied evidence is the 2024 manuscript, not a verified published version. |
 | Targeting and Privacy in Mobile Advertising (Marketing Science, 2021) | Empirical-primary hybrid, cited here for its method craft | An explicitly constructed example gives intuition before the general model; a shared primitive hinges the components. The abstract closes on a hedged incentive implication. |
+
+## Supplementary Theory Corpus
+
+| Paper | Role | Signature move to imitate |
+|---|---|---|
+| Robust Predictions in Games with Incomplete Information (Econometrica, 2013) | Supplementary theory research exemplar | A moment characterization summarizes a derivation; numbered parts distinguish restrictions; nearby prose identifies what is pinned down and what remains free. Appendix proofs refer back to results and compress identified standard components. |
+| Bayes Correlated Equilibrium and the Comparison of Information Structures in Games (Theoretical Economics, 2016) | Supplementary theory research exemplar | Definitions prepare short equivalence theorems; the headline is identified explicitly; proof explanations and constructive proofs remain in the body. The appendix supplies applications rather than deferred headline proofs. |
+| The Limits of Price Discrimination (American Economic Review, 2015; including its supplied online appendix dated September 23, 2014) | Supplementary theory research exemplar | A geometric lemma and a supporting proposition lead to the main attainable-set theorem. The body proves the finite result; the print appendix handles technical and continuum arguments. The online appendix derives the nonlinear example and ends with a summary proposition. |
+| Information Design: A Unified Perspective (Journal of Economic Literature, 2019; supplied evidence is the March 2018 Cowles revision 2075R3 marked forthcoming) | Supplementary theory survey exemplar | Accessible propositions and a reused example introduce a general framework; some established formal statements and proofs are explicitly omitted or supplied later. Appendix propositions use reductions, construction, and verification. Survey omissions are not a default for new research claims. |
+
+These supplementary sources support the theory statement and proof reference. They do not replace the existing marketing and management exemplars, establish a single journal-wide house style, or validate the entire adapted capability-results sequence. The supplied survey is a prepublication version; its page references and presentation observations should not be described as checked against the final journal text. The article and its online appendix count as one paper when assessing cross-paper recurrence.
 
 ## Cross-Paper Patterns
 

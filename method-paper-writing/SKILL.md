@@ -5,7 +5,7 @@ description: Write and revise theory, structural, and ML-method papers aimed at 
 
 # Method Paper Writing
 
-Adapted from an MIT-licensed research-paper-writing package. The target is a paper whose principal contribution develops a tool. The sampled venues are Management Science and Marketing Science plus one manuscript; other journals in the description are target venues, not sampled style evidence. Reverse outlines, claim maps, role labels, prose quotas, review loops, and LaTeX assembly checks are general editorial aids, not documented drafting practice in the sampled papers.
+Adapted from an MIT-licensed research-paper-writing package. The target is a paper whose principal contribution develops a tool. The original method corpus samples Management Science and Marketing Science plus one manuscript. A supplementary theory reference draws on economics research papers and a supplied survey manuscript. Its statement and proof guidance is conditional on the theory task and does not replace the original track guidance. Other journals in the description are target venues, not sampled style evidence. Reverse outlines, claim maps, role labels, prose quotas, review loops, and LaTeX assembly checks are general editorial aids, not documented drafting practice in the sampled papers.
 
 ## Which skill should I use?
 
@@ -22,7 +22,7 @@ This skill works on its own. If the sibling is not installed, apply the rules he
 
 Every guide in this skill distinguishes the tracks where they differ. Identify your track before loading any guide.
 
-- **Theory.** An analytical or game-theoretic model. The observed dichotomy is the sampled route; delegation and capability routes are unverified extrapolations.
+- **Theory.** An analytical or game-theoretic model. The existing corpus supports the explanatory-dichotomy route; the additional theory corpus supports characterization and equivalence statement and proof patterns. Delegation and broader capability routes remain editorial adaptations where not separately evidenced.
 - **Structural.** An estimation framework built on an explicit model of agent decisions. Typical headline: a framework that corrects a named bias, with counterfactuals that convert estimates into money or guidelines.
 - **ML-method.** An algorithm or learning framework. Typical headline: a hybrid that beats the pure approaches and the status-quo practice, with the gain located by regime.
 
@@ -80,6 +80,7 @@ Load only the needed file from `references/`:
 - Introduction: `references/introduction.md`
 - Literature and positioning: `references/literature-and-positioning.md`
 - Model and framework (core guide, three tracks): `references/model-and-framework.md`
+- Theory statements, result dependencies, and appendix proofs: `references/theorem-and-proof-style.md` — load for analytical theorem and proof work.
 - Results and validation (including an adapted capability-results route for theory): `references/results-and-validation.md`
 - Conclusion: `references/conclusion.md`
 - Pre-submission review: `references/paper-review.md`

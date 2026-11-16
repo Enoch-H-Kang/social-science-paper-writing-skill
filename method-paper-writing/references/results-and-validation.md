@@ -9,13 +9,15 @@ Results follow the track and question. Explain why key results arise. Present re
 **Source and variation.** The benchmark, main proposition, comparative statics, and extensions follow the theory exemplar; a later analytical exemplar also pairs proposition and interpretation. The order and count of numbered results are adaptable, and the benchmark need only precede the result it clarifies.
 
 1. **Benchmark model result:** what happens without the key force. This is the default the main result deviates from.
-2. **Main proposition,** with a formal statement and a plain-words restatement adjacent to it. Proof deferred. Follow it with interpretation paragraphs tying it to real behavior.
+2. **Main result,** with a precise formal statement and nearby economic explanation. Keep a proof or derivation in the body when it clarifies the central construction; otherwise give a verified proof pointer. Interpretation may precede the result or follow a short proof. See [Theorem Statements and Proofs](theorem-and-proof-style.md) for characterization and equivalence routes and appendix proof craft.
 3. **Comparative statics with economic explanation:** state formal directions and explain the driving forces nearby; flag counterintuitive ones when present.
 4. **Dichotomy check, when the model explains two observed regimes:** both arise in different parameter regions. Otherwise, check that the formal result answers the stated question under its assumptions.
 5. **Extensions** with propositions where the claim needs them. Irrelevance results are results.
 6. **Research questions** from the introduction are answered by formal results or explanatory prose as appropriate.
 
 For a theory paper whose headline is a capability or sufficiency result, see the adapted capability-results route below.
+
+The statement and proof patterns for characterization and equivalence results have direct theory-corpus support. The broader capability-results route below remains an editorial adaptation; this evidence does not establish its learning-time, computation-limit, or rate-related sequence.
 
 ### Adapted Capability-Results Route
 
