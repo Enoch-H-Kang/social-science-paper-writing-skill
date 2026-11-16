@@ -2,6 +2,18 @@
 
 The core guide of this skill. A "method section" may present an analytical model, a structural or estimation framework, or an ML or algorithmic method. Explain primitives and economic meaning close to the formal objects, in either order.
 
+## Paper Architecture and Headings
+
+**Source and variation.** The corpus papers connect an opening phenomenon or decision to a question, a motivated construction, an ordered answer, and a supported closing payoff. Their section orders differ. Component and object headings recur, especially in the structural and targeting papers; question headings, informative verbal headings, and sections without subsections also occur. The outline check below is an editorial aid, not a single corpus template.
+
+Before revising sections separately, write one line for each section: its narrative job, what earlier component or finding it uses, and what it contributes to the paper's answer. Use the introduction, results, literature, and conclusion guides for the track-specific moves. Distinguish the main answer from its supporting construction, an alternative route, and an extension. An extension may change an ingredient, institution, objective, or information set; identify its focal change without pretending that all other details remain fixed when they do not.
+
+Use section and subsection titles that make their contents easy to retrieve. Prefer short noun phrases naming the component, object, procedure, or comparison: for example, “Response Prediction,” “Audience Selection,” or “Joint-Learning Bounds.” Avoid repeatedly naming the rhetorical task instead, such as “Why this does not assume the answer,” when the block actually contains a theorem and its consequences. A question title can be useful when it states the question the block directly answers. An informative verbal title is also acceptable; grammatical uniformity is not the objective.
+
+Make heading levels reflect the argument's components. Give substantial peer components peer headings. Use numbered sub-subsections when one component has substantial constituents; keep a short interpretation or example under its parent, with a run-in heading if useful. A compact section doing one connected job can remain unbroken. Do not add headings to satisfy a count or give every paragraph its own subsection.
+
+Read the resulting outline without the prose. Can the reader locate the question, construction, main answer, alternatives, extensions, and closing payoff? Check packed headings and repeated narrative jobs, while retaining previews, later explanations, and returns to a question that add a distinct contribution. Reorganizing existing material must preserve the paper's results and their meaning. Mark a repair that requires new evidence or analysis as content work.
+
 ## Pre-Writing Questions
 
 For each component, answer in one line:

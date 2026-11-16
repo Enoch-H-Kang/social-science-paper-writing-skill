@@ -83,7 +83,7 @@ Load only the needed file from `references/`:
 - Abstract (three tracks, with optional theory routes): `references/abstract.md`
 - Introduction: `references/introduction.md`
 - Literature and positioning: `references/literature-and-positioning.md`
-- Model and framework (core guide, three tracks): `references/model-and-framework.md`
+- Paper architecture and headings; model and framework (core guide, three tracks): `references/model-and-framework.md`
 - Theory statements, result dependencies, and appendix proofs: `references/theorem-and-proof-style.md` — load for analytical theorem and proof work.
 - Results and validation (including an adapted capability-results route for theory): `references/results-and-validation.md`
 - Conclusion: `references/conclusion.md`
