@@ -78,3 +78,4 @@ Answer each with explicit evidence from the paper.
 7. Flag every sentence a non-specialist must reread, parse through nested clauses, or look up a word to understand; check first-use definitions without dropping terms of art, numbers, or qualifications.
 8. Every citation in the draft is verified to exist and supports its exact claim; every `[CITATION NEEDED: <the claim>]` placeholder is resolved or reported to the user.
 9. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.
+10. Are identifying assumptions named in the identification argument and tied to the design feature or evidence that satisfies them? Flag separate assumption lists.

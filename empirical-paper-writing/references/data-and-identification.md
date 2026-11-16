@@ -27,7 +27,7 @@ For observational data:
 
 - State the filtering or trimming rule in the open. Hiding it reads as cherry-picking.
 - Show propensity and covariate-balance evidence.
-- Restate positivity and unconfoundedness in the setting's own vocabulary ("every impression had a non-zero chance of showing every eligible ad"), then note where the design makes them automatic.
+- State positivity and unconfoundedness in the setting's own vocabulary ("every impression had a non-zero chance of showing every eligible ad"), then note where the design makes them automatic.
 
 ## Estimands and Outcomes
 
@@ -49,6 +49,7 @@ Give identification its own short subsection in plain language.
 2. What would not be identified without it?
 3. What unobserved heterogeneity could bias the headline number, and is its direction known?
 4. What are the honest limits (a single firm, a single time window, short-run outcomes)?
+5. Name identifying assumptions in prose within the identification argument, each tied to the design feature or evidence that satisfies it (for example, random assignment establishes unconfoundedness by construction); do not isolate them in a separate assumptions list.
 
 Attach decisive limits to the estimate and gather broader limitations in a later section when useful.
 

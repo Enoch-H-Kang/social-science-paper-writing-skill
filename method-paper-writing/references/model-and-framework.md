@@ -63,9 +63,10 @@ Open a multi-part model section with a compact roadmap paragraph mapping each mo
 
 1. **Economic explanation near formalism.** A definition, algorithm, or proposition may come first if interpretation follows closely and remains intelligible.
 2. **One notation, everywhere.** Keep a notation table while drafting.
-3. **Material assumptions are identifiable, motivated, and connected to the claims they bound.** Numbering is an option; explain what each rules out.
-4. **Consequential modeling choices** answer a challenge or trace to the institutional setting.
-5. **Use measured restricted-version failures** when they help explain the full framework; label the tested comparison.
+3. **Material assumptions are identifiable, motivated, and connected to the claims they bound.** Explain what each rules out.
+4. **Place conditions at their objects.** State each material condition once, in prose where the object it constrains is introduced, and explain in the same passage what it makes possible, identifies, or rules out. Do not collect conditions in an upfront list, an "Assumptions" section, or a summary paragraph that repeats conditions stated in subsections; duplication between a list and the body is a defect. Use a formal numbered assumption environment only when results in other sections need to cite the condition by a handle, and still state it at its object rather than in a separate upfront block.
+5. **Consequential modeling choices** answer a challenge or trace to the institutional setting.
+6. **Use measured restricted-version failures** when they help explain the full framework; label the tested comparison.
 
 ## Clarity Check
 
