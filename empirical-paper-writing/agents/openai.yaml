@@ -1,0 +1,4 @@
+interface:
+  display_name: "Empirical Paper Writing"
+  short_description: "Empirical papers for INFORMS-style journals: experiments, causal analysis, policy evaluation"
+  default_prompt: "Use $empirical-paper-writing to improve my empirical paper's structure, identification writing, and results presentation."

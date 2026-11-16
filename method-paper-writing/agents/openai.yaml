@@ -1,0 +1,4 @@
+interface:
+  display_name: "Method Paper Writing"
+  short_description: "Theory, structural, and ML-method papers for INFORMS-style journals"
+  default_prompt: "Use $method-paper-writing to improve my model/method paper's structure, intuition, and validation presentation."
