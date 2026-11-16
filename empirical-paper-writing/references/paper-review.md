@@ -6,17 +6,17 @@ Run an adversarial, reviewer-style pass to find rejection risks before submissio
 
 ## Critical Rule
 
-Every major claim, especially in the Abstract and Introduction, must be technically correct and explicitly supported by an identified estimate or a held-out evaluation. If a claim is unsupported, add evidence or weaken the claim.
+Every major claim, especially in the Abstract and Introduction, needs support appropriate to its stated strength: an identified estimate, independent policy evaluation, sourced institutional fact, documented case, analytical proof, explicitly suggestive descriptive, or implementation argument. If support is weaker than the wording, add evidence or narrow the claim.
 
 ## Common Rejection Dimensions
 
 | Dimension | What reviewers write |
 |---|---|
-| 1. Weak identification | Selection is unaddressed; the variation is not exogenous; the direction of bias is not stated. |
-| 2. Mechanism not discriminated | Only mediator correlations; the strongest rival story is untested. |
-| 3. Policy value in-sample or baseline-free | No off-policy or holdout evaluation; no status-quo or best-uniform comparison. |
+| 1. Weak identification | Selection or the source of variation is unaddressed; a stated bias sign lacks support. |
+| 2. Mechanism overclaimed | Suggestive mediator links are called identified effects, or tested rivals and opposing channels are misrepresented. |
+| 3. Learned-policy value unsupported | An independent or suitable off-policy evaluation and relevant comparator are missing for the gain claimed. |
 | 4. External validity | One firm or category; no scope conditions. |
-| 5. Overclaiming | Abstract numbers cannot be traced to an identified estimate. |
+| 5. Overclaiming | Abstract claims exceed the support appropriate to their type or stated strength. |
 | 6. Incremental substance | The answer is already known, or no actor would change behavior. |
 
 ## Self-Review Question List
@@ -26,53 +26,53 @@ Answer each with explicit evidence from the paper.
 ### 1. Identification
 
 1. What is the source of variation, and where in the text is it defended?
-2. Which selection threat is the most dangerous, and which way does it bias the headline?
+2. Which selection threat matters most, and is a claimed bias direction supported?
 3. Are filtering, trimming, and sample-construction rules stated in the open?
-4. Were splits and estimands declared before any result?
+4. Were splits and estimands explained before body results that depend on them? Are introductory previews truthful?
 
 ### 2. Mechanism
 
-1. Does the scorecard rule something out, not only support something?
-2. Is the strongest rival story rebutted explicitly?
+1. Does the language distinguish identified mechanism effects from suggestive links and opposing channels?
+2. When a rival is tested, is the result reported accurately, even if the test follows policy results?
 3. Are non-causal links marked as such?
-4. Do mechanism results match the direction of the average effect?
+4. Does the net account explain the average while allowing individual channels to oppose it?
 
 ### 3. Results Ordering and Baselines
 
-1. Are findings in the fixed order, independent of analysis chronology?
-2. Does every gain name a baseline in the same sentence?
-3. Are train and test shown side by side, with the test authoritative?
+1. Does the field-experiment arc (including post-policy mechanism) or targeting prediction → model → counterfactual arc fit this paper's question?
+2. Is each quantitative gain's comparator recoverable from the sentence or clear context?
+3. Are train and test shown when the claimed generalization or learned-policy value requires them? Are fitted-sample checks labeled as such?
 4. Are modest gains owned with a mechanical explanation?
 
 ### 4. Policy Evaluation
 
-1. Is policy value estimated out of sample or with a bias-corrected estimator?
-2. Is it compared with the status quo and the best uniform policy, with a test of the gap?
+1. For a learned policy-value claim, is value independently estimated or supported by a suitable off-policy estimator? For structural counterfactuals, are fitted-sample checks and model assumptions labeled accurately?
+2. Are the relevant comparators used, with a best-uniform test when that particular gap is claimed?
 3. Are failing rival methods reported and diagnosed?
 4. Are long-run consequences addressed where data exist?
 5. Are scope conditions for transfer stated operationally?
 
 ### 5. Writing
 
-1. Does each paragraph carry one message, stated first?
-2. Is every claim in the Abstract and Introduction in the claim map with support and baseline?
-3. Are headline numbers identical across sections?
+1. Does each paragraph develop a coherent lesson, whether stated first or built from cases or formal objects?
+2. Can a reviewer map each Abstract and Introduction claim to appropriate support, with a baseline only when applicable?
+3. Are headline numbers substantively consistent, allowing compatible rounding?
 4. Is any sentence long enough to need a second parse?
 
 ## Adversarial Workflow
 
 1. Read the paper as a skeptical reviewer for the target journal.
 2. Answer every question above with evidence from the paper.
-3. Mark each item `pass`, `needs revision`, or `needs new analysis`.
+3. Mark each applicable item `pass`, `needs revision`, or `needs new analysis`; otherwise mark `not applicable — reason`.
 4. Revise claims, writing, analyses, or scope accordingly.
 5. Repeat until no major rejection risk remains.
 
 ## Checklist
 
 1. No dimension 1–3 risk remains open.
-2. Every Abstract and Introduction claim has a support entry in the claim map.
-3. Every gain names its baseline and its evaluation sample.
-4. Scope conditions and limitations appear in the text, attached to the claims they bound.
-5. Headline numbers match across all sections.
+2. Every major Abstract and Introduction claim has an appropriate support entry in the reviewer’s map.
+3. Every quantitative gain has a recoverable comparator and a clear evaluation basis where needed; details can be carried by nearby context.
+4. Decisive scope conditions appear with bounded claims; broader limitations may appear in a later section.
+5. Headline numbers agree in substance across sections, allowing compatible rounding.
 6. Every item marked `needs new analysis` is either done or the claim it supports is weakened.
 7. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.

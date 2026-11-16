@@ -1,6 +1,8 @@
 # Abstract Template: Theory (Dichotomy, Delegation, or Capability)
 
-Choose one independent route. Content is generic and invented; replace every bracket.
+Choose one independent route. Bracketed content is invented; replace it.
+
+**Source and variation.** The dichotomy route follows the theory exemplar's opposing information choices, mirrored social forces, and emergence of the most tasteful product. Nearby economic interpretation and conditional formal claims recur across method exemplars. Delegation and capability are unverified extrapolations; their actors and mechanisms are invented placeholders.
 
 ## Dichotomy route
 
@@ -13,7 +15,7 @@ Choose one independent route. Content is generic and invented; replace every bra
 % Tradeoff, half 1: action 1 preserves X but reduces Y
 % Tradeoff, half 2 (mirrored): action 2 undermines X but increases Y
 % Conditions derived
-% Emergence or welfare bonus
+% Emergence of the most tasteful product, when established
 % Optional actor implication
 ```
 
@@ -26,10 +28,12 @@ Choose one independent route. Content is generic and invented; replace every bra
 5. `[Action 1] preserves [benefit X] but reduces [benefit Y].`
 6. `In contrast, [action 2] undermines [benefit X] but increases [benefit Y].`
 7. `Given these tradeoffs, we derive the conditions under which [action 1] arises and those under which [action 2] arises.`
-8. `We also show that [an emergence or welfare result a reader can repeat in one sentence].`
+8. `We also show that [the most tasteful product emerges as the hit, if the model establishes that result].`
 9. `[Optional: This implies that [actor] should [choice].]`
 
-## Delegation route
+## Optional delegation route (unverified extrapolation)
+
+The source corpus shows no delegation or shortcut-pricing abstract; use these invented placeholders only for a paper that proves the claimed result.
 
 1. `[Actor] cannot fully specify [decision] in advance, and [delegate] can [shortcut the intended process].`
 2. `This raises the question of [how to price or design a mechanism that addresses the shortcut].`

@@ -2,7 +2,7 @@
 
 This file records the source papers the rules in this skill were distilled from, so a user or a future editor can check a rule against its source. The patterns are paraphrases of structure and rhetoric, not reproductions of the papers' text.
 
-Venues: *Management Science*, *Marketing Science*, *Journal of Marketing Research*, *Information Systems Research*, *Quantitative Marketing and Economics*.
+Sampled venues: *Management Science* and *Marketing Science*, plus one manuscript. Other journals named in the entrypoint are target venues, not sources of this evidence.
 
 ## The Corpus (method track)
 
@@ -16,7 +16,7 @@ Venues: *Management Science*, *Marketing Science*, *Journal of Marketing Researc
 ## Cross-Paper Patterns
 
 1. **Question or obstacle before design.** Observed cases, measured rival failures, identification gaps, computational infeasibility, and labeled constructions establish different claims. A constructed example can illustrate possibility or intuition without proving prevalence; using one as an introduction diagnosis is an extrapolated placement choice.
-2. **Intuition before formalism.** Premises are built in words, lemma and proposition intuitions sit in the text, proofs are deferred, and every formula gets a plain reading.
+2. **Nearby economic explanation.** Formal definitions, algorithms, and propositions can precede interpretation; the surrounding prose makes their economic meaning intelligible.
 3. **Findable architecture.** Components, propositions, challenges, and validation steps should be easy to locate; material assumptions may appear in prose or equations without numbering.
 4. **Track-specific validation.** Explanatory dichotomy theory: benchmark and both regimes. Other formal questions: the result answers the question under its assumptions. Structural: identification in words and fit before counterfactuals. ML: evaluated baselines and gains located by the tested regime.
 5. **On-the-spot defense of choices,** by required properties, by tractability, or by a business constraint.

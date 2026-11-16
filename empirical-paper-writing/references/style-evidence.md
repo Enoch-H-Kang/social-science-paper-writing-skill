@@ -2,7 +2,7 @@
 
 This file records the source papers the rules in this skill were distilled from, so a user or a future editor can check a rule against its source. The patterns are paraphrases of structure and rhetoric, not reproductions of the papers' text.
 
-Venues: *Management Science*, *Marketing Science*, *Journal of Marketing Research*, *Information Systems Research*, *Quantitative Marketing and Economics*.
+Sampled venues: *Management Science* and *Marketing Science*. Other journals named in the entrypoint are target venues, not sources of this evidence.
 
 ## The Corpus (empirical track)
 
@@ -18,10 +18,10 @@ Venues: *Management Science*, *Marketing Science*, *Journal of Marketing Researc
 2. **The question follows the practice:** opposing effects or an open decision can suffice. Conflicting incentives belong where the setting actually has them.
 3. **"To answer these questions, we…" is the hinge** of the abstract. The framework is an answer to questions, never a contribution in search of a problem.
 4. **Frameworks have enumerated components,** and the enumeration in the abstract matches the section structure.
-5. **Quantitative comparisons are exact and baselined:** a percentage needs a named comparator; an abstract need not contain a numeric market scale or a gain for every claim.
-6. **Heterogeneity is a finding.** Segments are defined by their optimal treatment and then interpreted, so the reader can say who should get what.
+5. **Quantitative comparisons are baselined and substantively consistent:** a percentage gain needs a recoverable comparator; compatible rounding is acceptable, and an abstract need not contain numeric market scale.
+6. **Heterogeneity is a finding.** Segments can explain outcomes or policy assignments; the policy rule belongs only where evaluation supports it.
 7. **Closes vary:** a scoped negative comparison can support a caution, while a hedged incentive implication can close another abstract. Decisive conditions attach to the claims they bound.
-8. **The findings preview follows the paper's question:** average effects, mechanisms, heterogeneity, and policy value appear when supported; out-of-sample policy evaluation remains authoritative.
+8. **The findings preview follows the paper's question:** the field experiment revisits segmentation and mechanism after policy value, while the targeting hybrid moves from prediction and targeting value to a model and market counterfactuals. Independent policy evaluation supports learned-policy claims when made.
 
 ## How to use this file
 

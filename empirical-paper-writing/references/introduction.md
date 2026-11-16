@@ -2,7 +2,7 @@
 
 ## Goal
 
-The introduction does in about four pages what the abstract does in one paragraph, but it must earn each step: the reader should feel the debate is real, the questions are the right ones, the challenges are hard, and the framework is the natural answer. The strongest introductions in these journals split explicitly into context / agenda and challenges / approach / findings.
+The introduction develops the market question, evidence, approach, and findings at the length the argument needs. One exemplar uses explicit context, agenda, approach, and findings subsections; another develops them in continuous prose.
 
 ## Backward Reasoning First
 
@@ -10,13 +10,15 @@ Answer before writing:
 
 1. What decision does a named actor face, and what observed practice or unresolved question motivates it?
 2. What are the actors' objectives and the relevant constraint or tension? Are incentives actually in conflict?
-3. What are the research questions, grouped into at most three sets?
+3. What research questions does the paper answer, and would grouping them help?
 4. For each question, what makes it hard: which variation, prediction, or economic structure is missing?
 5. What does each framework component deliver, and which challenge does it map to?
-6. Findings in order: average → mechanism → heterogeneity → policy value → incentive implication.
-7. Against which two literatures does the paper position itself, one substantive and one methodological, and what can neither answer?
+6. Which results arc fits: field-experiment effects → mechanisms → policy value → later segmentation/mechanism → long-run outcomes, or targeting prediction → value → model → market counterfactuals?
+7. Which substantive and methodological literatures matter, and how does the paper position its question among them?
 
 ## Section Skeleton
+
+**Source and variation.** The subsectioned context → questions/challenges → approach → findings pattern follows the targeting hybrid. Both empirical exemplars open from market practice and connect questions to findings; the field experiment develops these moves in continuous prose and returns to mechanism after policy. Numbered subsections and paragraph quotas are editorial adaptations.
 
 ```latex
 \section{Introduction}
@@ -34,21 +36,21 @@ Answer before writing:
 3. State the relevant constraint, opposing effect, or conflict. Name an opposing actor only when the setting has one.
 4. Close with the knowledge gap stated as a missing understanding, not a missing method, followed by the questions it blocks.
 
-Rules: keep it short (past about 1.5 pages, institutional detail belongs in the data section); every fact is load-bearing for a later question; no academic citations in the first paragraph. A motivating data figure inside the introduction is a legitimate power move when a challenge (dynamics, selection) can be shown rather than asserted.
+Keep context relevant to importance, institutional setting, or a later question. Cite a source when a contextual fact needs one. A motivating data figure can show a suggestive pattern while leaving identification for later analysis.
 
 ## 1.2 Research Agenda and Challenges
 
 The signature subsection, written in two moves.
 
-**Move 1: question sets.** State the questions as questions, grouped, three sets at most. The explicit numbered research-question list is the signature move: 3–5 questions, escalating, and every one answered by a later section. Reviewers check the mapping. A question no later section answers is deleted here.
+**Move 1: question sets.** State the questions plainly, in ordinal prose or a list, grouping them when useful. Each should connect to a later answer.
 
-**Move 2: challenges.** "There are three main challenges to answering these questions." Each challenge names the failure that follows from ignoring it:
+**Move 2: challenges, when useful.** Each challenge names what answering the question requires:
 
 - Counterfactual challenge: decisions need outcomes for options not chosen; without exogenous variation the counterfactual set may be empty.
 - Prediction challenge: with a weak predictive model the estimated value of information or design is biased (state the direction, usually downward).
 - Incentive challenge: without an economic model of strategic interaction, no statement about any actor's incentives is possible, however good the predictions.
 
-Challenges are about what answering the question requires, not about beating a benchmark.
+Measured prediction or benchmark failures can establish a challenge when the comparison and setting are stated.
 
 ## 1.3 Our Approach
 
@@ -63,13 +65,10 @@ Rules: name the primitives; sell each component by the counterfactual it unlocks
 
 ## 1.4 Findings and Contributions
 
-**Findings.** Previewing essentially all results quantitatively is the norm in this genre (unlike an ML-conference teaser). One short paragraph or less each, in the fixed order:
+**Findings.** Preview the results that answer the question, with numbers for key quantitative comparisons. Two observed arcs are available:
 
-1. Average effect: exact number, named baseline, surprise flagged.
-2. Mechanism verdict: what was ruled out, what was supported, the discriminating result in one clause.
-3. Heterogeneity, as a rule a manager could use.
-4. Policy value: the policy, the evaluation method, the gain over the status quo and over the best uniform policy.
-5. Incentive or behavioral implication, stated plainly.
+1. **Field-experiment arc:** average effects and evidence-calibrated mechanisms; policy design and independently evaluated value; segmentation and a possible return to mechanism; then long-run outcomes where observed.
+2. **Targeting hybrid arc:** predictive performance and targeting value; analytical model; market counterfactuals and incentive findings.
 
 Own modest gains with a mechanical explanation. A negative result can get equal billing.
 
@@ -77,23 +76,23 @@ Own modest gains with a mechanical explanation. A negative result can get equal 
 
 ## Roadmap
 
-Optional. When the findings preview already walks the paper's order, drop it. Otherwise two or three sentences: section numbers and one-line contents.
+Optional. Include a roadmap when it helps navigation, even if the findings preview follows the paper's order. Keep it concise.
 
 ## Anti-Patterns
 
 1. Opening with the literature ("A growing body of work studies…"). The market opens.
 2. Opening with the method before the decision problem exists.
 3. A challenges paragraph that is a complaint about prior papers' accuracy.
-4. Findings listed in the order the analyses were run.
-5. Contribution bullets that repeat the findings in new words. Findings say what is true; contributions say what the field can now do or know.
-6. A paragraph whose first sentence does not state its message.
+4. Findings ordered without regard to the paper's question or explanatory arc.
+5. Contribution claims that merely repeat a finding without explaining why it matters.
+6. A paragraph that introduces cases or formal objects but never draws their lesson.
 
 ## Checklist
 
 1. Could a reader who stops after 1.2 state the paper's questions and why they are hard?
 2. Does every component map to a named challenge, and every question to a findings paragraph?
-3. Are the findings in the fixed order, each with its number and baseline?
-4. Is the incentive or behavioral implication present, and is it the last finding?
+3. Does the findings preview follow the chosen arc, with comparators for key quantitative gains?
+4. Are incentive or behavioral implications stated only when supported, wherever they fit the arc?
 5. Reverse outline: thesis → topic sentences → evidence. Is anything unmapped?
 
 ## Scope Placement

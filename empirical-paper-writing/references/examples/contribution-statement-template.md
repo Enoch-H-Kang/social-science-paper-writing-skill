@@ -1,6 +1,8 @@
 # Contribution Statement Template (Empirical Papers)
 
-Three short paragraphs closing the introduction. Findings say what is true; contributions say what the field can now do or know. Content is generic; replace brackets.
+Use the relevant audiences in as many paragraphs as the argument needs. A finding can become a contribution when the text explains why it matters. Replace bracketed placeholders.
+
+**Source and variation.** The substantive, methodological, and managerial or policy audiences recur in the empirical exemplars, but one uses a compact combined paragraph and the other adds a policy contribution. The separate paragraph format and bracketed content are editorial adaptations.
 
 ```latex
 % Substantive: the question this paper settles or reframes
@@ -17,13 +19,13 @@ Three short paragraphs closing the introduction. Findings say what is true; cont
 
 ## Rules
 
-1. Do not restate findings in new words. If a sentence could sit in the findings preview unchanged, cut it.
+1. A finding may be restated when the contribution explains what it lets the field know or do.
 2. When contrasting closest work, cite a source and describe the precise difference respectfully as a question or capability.
 3. Order paragraphs by the paper's headline, then the other relevant audiences.
 
 ## Checklist
 
-1. Does each paragraph state a capability or settled question rather than a finding?
+1. Does each contribution explain the significance of a capability, question, or finding?
 2. Is any closest-work contrast precise, respectful, and supported by a source?
 3. Does any quantitative gain carry a number and a named baseline?
-4. Are the three paragraphs distinct in audience, with no overlap?
+4. Are the chosen audiences useful to the argument, without a compulsory paragraph count?

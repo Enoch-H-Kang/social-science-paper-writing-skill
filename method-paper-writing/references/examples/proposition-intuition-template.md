@@ -1,10 +1,12 @@
 # Proposition-Intuition Template
 
-The presentation unit for one analytical result: plain-words preview, formal statement, interpretation, comparative static, optional counterintuition flag. Content is generic and invented.
+One presentation option for an analytical result: formal statement with nearby interpretation, comparative static, and optional counterintuition flag. The bracketed content is invented.
+
+**Source and variation.** The theory exemplar supplies information restriction, taste signaling, and comparative statics; another analytical exemplar places its interpretation after a proposition. Nearby explanation recurs across them. The five-part outline, proposition number, and proof pointer are editorial placeholders, not verified theorem content.
 
 ```latex
-% (1) Plain-words preview: what happens, for whom, because of what
-% (2) Formal statement: Proposition N, with a note on where the proof lives
+% (1) Optional plain-words preview or setup
+% (2) Formal statement: Proposition N, with a proof pointer if appropriate
 % (3) Interpretation paragraph(s): map to real behavior; name the economic concept
 % (4) Comparative-static sentence(s) in economic terms
 % (5) Optional counterintuition flag
@@ -12,23 +14,25 @@ The presentation unit for one analytical result: plain-words preview, formal sta
 
 ## Skeleton
 
-1. **Preview.** `[What happens], for [whom], because [one-sentence mechanism].`
+1. **Optional preview.** `[What happens], for [whom], because [one-sentence mechanism].` A formal object may come first instead.
 2. **Formal statement.** `Proposition N. [Formal statement.] (Proof in Appendix [X].)`
 3. **Interpretation.** `In words, [restatement]. This is an instance of [economic concept]: [one sentence tying the result to observed behavior].`
-4. **Comparative static.** `[Action] becomes more attractive as [economic meaning of the parameter rising], because [force].` Banned form: "the threshold increases in γ."
+4. **Comparative static.** `[Formal direction, if proved.]` Explain the parameter's economic meaning and driving force nearby.
 5. **Counterintuition flag (optional).** `Notably, [result] runs against the intuition that [naive view]: [one-sentence reason].`
 
-## Worked generic example
+## Illustrative information-choice example
 
-1. *Preview.* A seller of an exclusive product restricts access when buyers care mostly about status among peers, because broad access erodes the product's value as a signal.
-2. *Formal.* Proposition 2. There exists a threshold on the share of peer-motivated buyers above which restricted access maximizes profit. (Proof in Appendix B.)
-3. *Interpretation.* In words, the seller gives up volume to protect scarcity. This is an instance of a signaling-versus-reach tradeoff.
-4. *Comparative static.* Restriction becomes more attractive as buyers care more about status than about reach, because each added buyer dilutes the signal faster than it adds revenue.
-5. *Counterintuition.* Notably, a larger market makes restriction more attractive, not less, because dilution scales with the number of observers.
+The prose below is a variable-only illustration of the theory exemplar's information and taste-signaling logic. It is not a proved proposition or a claim about physical access, scarcity, market-size effects, or a threshold share of buyers.
+
+1. *Setup.* A firm can restrict information about a product or reveal it broadly; consumers value both taste signaling and social interaction.
+2. *Formal placeholder.* Proposition N. Under [stated primitives and conditions], [information policy] is optimal. (Proof in [verified location].)
+3. *Interpretation.* Restricting information can preserve taste-signaling value while reducing interactions; broad disclosure can reverse those forces.
+4. *Comparative static placeholder.* If proved under the paper's assumptions, explain how [taste-signaling parameter] changes the information policy and why.
+5. *Counterintuition, if established.* State the surprising result and its economic reason without inferring a market-size effect from this illustration.
 
 ## Checklist
 
-1. Does the plain-words preview appear before or adjacent to the formal statement?
-2. Does the interpretation name the economic concept the result instantiates?
-3. Does every comparative static name the parameter's economic meaning and the force, not bare monotonicity?
+1. Is plain-language interpretation adjacent to the formal statement, before or after it?
+2. Does the interpretation explain the economic force, with a named concept when useful?
+3. Does each material comparative static pair a formal direction with its economic meaning and force?
 4. Is any counterintuitive result flagged explicitly?

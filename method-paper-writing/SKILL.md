@@ -1,15 +1,15 @@
 ---
 name: method-paper-writing
-description: Write and revise method papers for INFORMS-style journals (Management Science, Marketing Science, Journal of Marketing Research, Information Systems Research, QME) — analytical/game-theoretic models, structural estimation frameworks, and ML/econometric methods, each handled as its own track. Open with the observed pattern, decision problem, or capability the tool serves; establish the question or obstacle before presenting the solution; give intuition before math; validate claims against the appropriate model, data, or limiting cases; and benchmark comparative performance claims against relevant approaches. Use when drafting or revising the Abstract, Introduction, Literature, Model/Framework, Results/Validation, or Conclusion of a theory, structural, or ML-method paper, or for a pre-submission adversarial review. Triggers: "write a method paper", "revise my model section", "method paper 써줘", "이론 논문 고쳐줘", "구조모형 논문 다듬어줘", "Marketing Science 스타일로 모델 논문 써줘".
+description: Write and revise theory, structural, and ML-method papers aimed at quantitative marketing and management journals. Establish the question or obstacle, explain the method and its economic meaning, use validation appropriate to the claim, and benchmark comparative gains when made. Use when drafting or revising the Abstract, Introduction, Literature, Model/Framework, Results/Validation, or Conclusion, or for a pre-submission review. Triggers: "write a method paper", "revise my model section", "method paper 써줘", "이론 논문 고쳐줘", "구조모형 논문 다듬어줘", "Marketing Science 스타일로 모델 논문 써줘".
 ---
 
 # Method Paper Writing
 
-Adapted from an MIT-licensed research-paper-writing package. That package teaches ML/CV/NLP conference writing: teaser figure, pipeline, beat SOTA, ablate. This skill keeps its discipline (one paragraph = one message, reverse outlining, claim–evidence checks, adversarial self-review) and replaces its substance. The target is a method paper in the house style of quantitative marketing and management journals: a paper whose contribution is a tool.
+Adapted from an MIT-licensed research-paper-writing package. The target is a paper whose principal contribution develops a tool. The sampled venues are Management Science and Marketing Science plus one manuscript; other journals in the description are target venues, not sampled style evidence. Reverse outlines, claim maps, role labels, prose quotas, review loops, and LaTeX assembly checks are general editorial aids, not documented drafting practice in the sampled papers.
 
 ## Which skill should I use?
 
-Classify the paper by where the headline contribution claim sits (the contribution sentence of the abstract). A tool (model, framework, estimator, algorithm) means this skill. A market or policy answer means the sibling skill, `empirical-paper-writing`, which covers field and natural experiments, causal analyses of platform or firm data, and policy or design evaluations.
+Classify by the question and hierarchy of contributions across the abstract and introduction. A tool developed as the main contribution favors this skill; a market or policy answer favors `empirical-paper-writing`. A model or framework named in an abstract does not alone determine the primary route.
 
 Hybrid papers use both skills and the primary one follows the headline.
 
@@ -22,7 +22,7 @@ This skill works on its own. If the sibling is not installed, apply the rules he
 
 Every guide in this skill distinguishes the tracks where they differ. Identify your track before loading any guide.
 
-- **Theory.** An analytical or game-theoretic model. Possible headlines: an explanation of an observed dichotomy, a delegation mechanism, or a formal result enabling a capability.
+- **Theory.** An analytical or game-theoretic model. The observed dichotomy is the sampled route; delegation and capability routes are unverified extrapolations.
 - **Structural.** An estimation framework built on an explicit model of agent decisions. Typical headline: a framework that corrects a named bias, with counterfactuals that convert estimates into money or guidelines.
 - **ML-method.** An algorithm or learning framework. Typical headline: a hybrid that beats the pure approaches and the status-quo practice, with the gain located by regime.
 
@@ -37,39 +37,38 @@ Use the prompts that apply to the paper. If a necessary answer is missing, fix t
 ## Core Workflow
 
 1. **Question first.** Establish the question or obstacle before the solution appears; preview a later demonstration truthfully when needed.
-2. **Primitives and intuition before notation.** The reader should be able to retell the model or method in words.
+2. **Primitives and nearby economic explanation.** The reader should be able to retell the model or method in words, whether interpretation precedes or follows a formal statement.
 3. **Load only the section guide you need** (list below). Do not load all references at once.
-4. **Rewrite paragraph by paragraph.** One message per paragraph; the first sentence states the message.
+4. **Rewrite paragraph by paragraph.** Keep a coherent purpose; cases or formal objects can precede the lesson they establish.
 5. **Reverse-outline each section** after drafting: thesis → paragraph topic sentences → evidence under each.
-6. **Run the claim map** (Output Contract). Every claim must point to a proposition, an estimate plus fit, or a benchmarked gain.
+6. **Run the claim map** (Output Contract). Match claims to analytical proofs, estimates and model checks, benchmarks, sourced institutional facts, documented cases, explicitly suggestive descriptives, or implementation arguments at their stated strength.
 7. **Run the adversarial review** in `references/paper-review.md` and revise until no high-risk item is open.
 
 ## The Ten Rules
 
-1. **Start from the practice or the dichotomy the tool serves, never from what methods cannot do.** The opening is a plain fact about a market, a pattern in behavior, or a managerial need. Never open with "recent advances in…".
+1. **Start from the practice, dichotomy, or measured obstacle the tool serves.** A market pattern, managerial need, or documented failure of an existing method can establish the question.
 2. **Name the actors, objectives, and relevant constraint or tension.** Describe conflicting incentives when the paper has them; a resource limit or open capability question can also motivate the tool.
 3. **State the motivating question plainly.** A two-sided tradeoff fits an explanatory dichotomy; a delegation or capability paper may ask a different question.
 4. **Question or obstacle before design.** Establish it with observed cases, measured rival failure, an identification gap, infeasibility, or a labeled construction. Keep the evidentiary limit clear.
-5. **Results follow the track arc.** Theory: benchmark → main result → comparative statics → extensions. Structural: estimates against nested inferior models → fit → counterfactuals. ML: top line → pairwise with why → where the gain is largest → ablation.
+5. **Results follow a track-appropriate arc.** The theory, structural, and ML outlines below are source-shaped options; choose the order and checks that answer the paper's claims.
 6. **Quantify comparative gains when claimed.** Name the baseline and relevant regime; state where the gain vanishes when that is part of the result.
 7. **End on the strongest supported result, payoff, caution, boundary, or implication.** Attach decisive conditions to the claims they bound.
-8. **Intuition before math, always.** State the idea in plain words, then the formal version. Give the technical answer and its practical perspective when one follows; state a manager rule when the result supports one.
+8. **Keep intelligible economic explanation near formalism.** A definition or proposition can come first, followed by its interpretation and practical perspective where supported.
 9. **Crisp is a quality standard.** Short declarative sentences, one finding per sentence, numbers in sentences, terms defined by what an actor does before notation. Cut any sentence a reader must parse twice.
-10. **Defend every modeling choice on the spot.** Use required properties, tractability with the infeasible alternative sketched, or a business constraint. For an explanatory dichotomy, the model must generate both sides of the phenomenon. For other formal results, check that the statement answers the actual question under its assumptions.
+10. **Defend consequential modeling choices.** Use required properties, tractability, institutional fit, or a business constraint. For an explanatory dichotomy, the model must generate both sides of the phenomenon. For other formal results, check that the statement answers the actual question under its assumptions.
 
-## How this differs from ML-conference writing
+## Method paper choices
 
-| ML/CV conference | INFORMS journal |
+| Question or evidence | Useful presentation choice |
 |---|---|
-| Teaser or pipeline figure as first impression | The dichotomy or decision problem as first impression |
-| Method = modules with stated advantages | Framework = primitives, each mapped to a named question or obstacle |
-| Theorems expected, or no theory at all | Intuition mandatory and proofs deferred; limiting cases can substitute for theorems when you say honestly that guarantees are open |
-| Beat-SOTA tables | Status-quo-anchored benchmarks, with the gain located by regime |
-| Tutorial scaffolding minimized | Tutorial scaffolding generous, because readers are quantitatively sophisticated but not specialists |
-| Cost and runtime hidden or in an appendix | Cost, runtime, and effort reported when material to a claim |
-| Conclusion = future-work boilerplate | Conclusion = supported payoff, limitations, and concrete next questions |
+| Explanatory theory | Cases or setup → result → nearby interpretation; a benchmark may clarify the main result |
+| Structural framework | Decisions and identification → estimates → fitted-sample model checks → counterfactuals, with assumptions explicit |
+| ML method | Measured incumbent diagnosis → hybrid design → relevant benchmarks and boundaries |
+| Comparative gain | Relevant comparator and regime; tuning and runtime when they affect the claim |
+| Formal capability | Precise theorem and conditions; limiting cases can inform claims without invented guarantees |
+| Conclusion | Supported payoff, scope, or concrete future question |
 
-Keep from the conference tradition, unchanged: one paragraph, one message; topic sentence first; reverse outlining; stable terminology; weaken any claim the evidence does not support.
+Keep terminology stable and weaken claims that exceed the evidence.
 
 ## Section Guides
 
@@ -89,7 +88,7 @@ Load only the needed file from `references/`:
 
 1. Identify the track before drafting.
 2. For each component or proposition, write one line: which question or obstacle it addresses, which primitive it builds, and which counterfactual, characterization, or capability it makes available.
-3. Never present the design as an improvement over a naive version of itself. Present it as the answer to the named question or obstacle.
+3. Measured failures of restricted or naive versions can motivate a design; state the comparison and its scope.
 4. When making comparative performance claims, keep the benchmark protocol fair and disclosed, with tuned rivals and a relevant status-quo practice when applicable.
 5. Handle anomalies honestly: surface and resolve oddities, never bury them.
 6. Weaken unsupported claims in the abstract and introduction first.
@@ -100,7 +99,7 @@ Load only the needed file from `references/`:
 When asked to draft or rewrite, return:
 
 1. A compact outline (3–7 bullets) organized by question or proposition.
-2. Revised paragraphs, each labeled with its role: `context / diagnosis / setup / intuition / formal / comparative-static / validation / benchmark / implication`.
+2. Revised paragraphs, with useful role labels such as `context / diagnosis / setup / intuition / formal / comparative-static / validation / benchmark / implication` when requested.
 3. A claim map for every major claim:
-   `Claim: … | Support: proposition / estimate+fit / benchmarked gain | Baseline: named comparator or not applicable — reason | Status: supported / needs evidence / overclaimed`
-4. A short self-review: sentences to split or cut, intuition-before-math check, undefended modeling choices, and any comparative gain not located by its relevant regime.
+   `Claim: … | Support: proof / estimate and model check / benchmark / sourced fact / case / suggestive descriptive / implementation argument | Baseline: comparator or not applicable — reason | Status: supported / suggestive / needs evidence / overclaimed`
+4. A short self-review: clarity, nearby economic explanation, material assumptions, and comparative gains whose regime or comparator is unclear.

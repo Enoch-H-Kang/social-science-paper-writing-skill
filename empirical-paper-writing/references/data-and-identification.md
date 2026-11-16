@@ -4,9 +4,11 @@ The core guide of this skill. It covers the setting, the design, the estimands, 
 
 ## Goal
 
-Identification is a writing obligation. The reader must find, in the main text and where the estimate is introduced, the source of variation, the selection threat, and the direction of the potential bias.
+Identification is a writing obligation. The reader should find the source of variation and material selection threats in the main text. State a bias direction when it is supported; do not assign an unsupported sign.
 
 ## Setting and Institutions
+
+**Source and variation.** The field experiment uses enrollment timing and treatment assignment; the targeting hybrid uses probabilistic allocation and filtering. Both explain variation in the main text. Numbered institutional steps and the split/estimand checklist are editorial options drawn chiefly from the field experiment's organization.
 
 1. Describe the market and its mechanism as numbered steps (who moves first, what is shown, what is charged, what is observed).
 2. Make institutional detail load-bearing: each fact underwrites a later assumption or estimand. Color that motivates nothing gets cut.
@@ -17,7 +19,7 @@ Identification is a writing obligation. The reader must find, in the main text a
 
 State the treatment arms or the natural variation, then defend the design against self-selection in prose.
 
-1. Name the threat abstractly first, with the bias that follows ("users who self-select into longer trials are likely more engaged, which would overstate the effect").
+1. Name the selection threat and explain the bias it could create. A directional example requires evidence for its premise and sign.
 2. Then narrate the design feature that kills it (assignment revealed only after the trial starts, so assignment cannot influence the decision to enroll).
 3. Close by naming the conditions a clean design needs, and say which are guaranteed by design and which are checked.
 
@@ -31,7 +33,7 @@ For observational data:
 
 1. Define each outcome operationally in a numbered list, including edge cases (what counts as a conversion if the user upgrades after the window closes?).
 2. If the paper uses a novel behavioral construct (a pattern of inactivity, a usage-intensity measure), define it and diagram it before using it.
-3. Declare train/test or estimation/holdout splits here, before any result. A split announced after results looks tuned.
+3. Declare train/test or estimation/holdout splits before interpreting the body results that depend on them. Truthful abstract and introduction previews may appear earlier.
 
 ## Descriptive Evidence Before Structure
 
@@ -45,16 +47,16 @@ Give identification its own short subsection in plain language.
 
 1. What variation pins down each key parameter or effect?
 2. What would not be identified without it?
-3. What unobserved heterogeneity could bias the headline number, and in which direction?
+3. What unobserved heterogeneity could bias the headline number, and is its direction known?
 4. What are the honest limits (a single firm, a single time window, short-run outcomes)?
 
-State limits here, with the estimate, rather than quarantining them in a final limitations section.
+Attach decisive limits to the estimate and gather broader limitations in a later section when useful.
 
 ## Checklist
 
 1. Is each threat named before the fix that addresses it?
-2. Is the direction of potential bias stated for each threat?
-3. Are splits declared before any result?
+2. Is any stated bias direction supported, and are unsigned threats explained honestly?
+3. Are splits declared before body results that rely on them, while introductory previews remain truthful?
 4. Is every institutional fact load-bearing for a later assumption or estimand?
 5. Are filtering and trimming rules stated in the open?
 6. Is descriptive evidence hedged as suggestive?

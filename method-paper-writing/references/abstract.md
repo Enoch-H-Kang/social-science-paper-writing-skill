@@ -16,6 +16,8 @@ If questions 1 and 5 have no answer, the abstract is a promise, not a summary.
 
 ## Version T: Theory — Explain a Dichotomy, Price Delegation, or Enable a Capability
 
+**Source and variation.** The dichotomy slots follow the theory exemplar's information-choice and taste-signaling arc. Conditional results and economic interpretation recur across analytical components in the corpus. Delegation and capability are unverified extrapolations, and the slot counts are editorial adaptations.
+
 Choose the route that fits the formal question. The first route has nine slots:
 
 1. **Observed dichotomy:** "There exists a dichotomy in [market]: some [actors] [action 1], whereas others [action 2]."
@@ -25,10 +27,10 @@ Choose the route that fits the formal question. The first route has nine slots:
 5. **Tradeoff, first half:** action 1 preserves [benefit X] but reduces [benefit Y].
 6. **Tradeoff, second half,** as a mirrored sentence: action 2 undermines [X] but increases [Y]. Keep the pair parallel in structure.
 7. **Conditions derived** under which each action occurs.
-8. **Emergence or welfare bonus** a reader can repeat in one sentence (the best product endogenously becomes the hit).
+8. **Emergence bonus** when established: in the dichotomy exemplar, the most tasteful product becomes the hit; a welfare result would be a separate adaptation requiring proof.
 9. **Optional implication** for an actor, without notation.
 
-**Delegation route:** Begin with the decision an actor cannot fully specify, identify the delegate's possible shortcut, state the open pricing or mechanism-design question, introduce the mechanism and its decisive property, then give the formal result and its conditions. Add an actor implication only when the result supports one. This route does not require two observed actions or an emergence result.
+**Optional delegation route (unverified extrapolation):** The source corpus has no delegation abstract or shortcut-pricing model. Begin with the decision an actor cannot fully specify, identify the delegate's possible shortcut, state the open pricing or mechanism-design question, introduce the mechanism and its decisive property, then give the formal result and its conditions. Add an actor implication only when the result supports one. This route does not require two observed actions or an emergence result.
 
 **Optional capability/enabling route (theorem adaptation is an extrapolation):** The source corpus shows enabling-method rhetoric, but no sufficiency or equivalence abstract template. Use this seven-slot sequence when the paper's actual theorem is about what a construction makes possible:
 
@@ -46,6 +48,8 @@ Template: `examples/abstract-template-theory.md`.
 
 ## Version S: Structural — Estimate and Counterfact
 
+**Source and variation.** The institution, dynamic decision, selection, valuation sequence follows the structural exemplar. Conditional claims and counterfactual interpretation recur in method papers. Exact slot counts, numeric bias, and a dollar payoff in the abstract are adaptations rather than observed requirements.
+
 Ten slots:
 
 1. **Setting** defined in a clause.
@@ -54,20 +58,22 @@ Ten slots:
 4. **Contribution = the framework.**
 5. **The agent's per-period decision** (one sentence).
 6. **Its tradeoffs** (one sentence).
-7. **The bias hook:** ignoring [dynamics / selection] biases [parameter] [direction]; this framework handles it through [mechanism].
-8. **Data** in one clause.
-9. **Findings:** forward-looking behavior is present, and naive models are biased.
-10. **Counterfactual payoff** in money or guidelines, qualified where the inference depends on a condition.
+7. **The bias hook:** explain when ignoring [dynamics / selection] can bias [parameter] and give a direction only under conditions that support it.
+8. **Data** in one clause, with scale only if useful.
+9. **Findings:** forward-looking behavior, the substantive finding that buyers value reputation in the structural exemplar, and diagnostic bias at their supported strengths.
+10. **Counterfactual payoff or promise:** a valuation exercise and intended managerial use may be stated without an abstract dollar amount; qualify conditional inference.
 
 Template: `examples/abstract-template-structural.md`.
 
 ## Version M: ML Method — Diagnose and Hybridize
 
+**Source and variation.** The diagnosis of tested pure approaches followed by a hybrid method follows the ML-method exemplar. Question-first motivation and qualified results recur across method papers. A strict ranking or deployment note in the abstract is an optional adaptation.
+
 Eight slots:
 
 1. **Managerial need.**
 2. **Data and evaluation of the pure approaches** on a large real archive.
-3. **Ranked negative result:** which pure approach does worst, which does best, and how far from useful.
+3. **Diagnostic negative result:** which tested pure approaches fall short, with a ranking only when useful and supported.
 4. **One-line verdict,** the empirical contribution in one sentence.
 5. **Method announcement:** the named framework.
 6. **Mechanism in one line:** how it addresses the tested approaches' limitations.
@@ -83,13 +89,13 @@ Name the setting early. Attach decisive conditions to the claims they bound, sta
 ## Sentence-Level Rules
 
 1. Verbs do the work: *we use, we find, we show, we develop, we evaluate, we derive*. No "leverages", "sheds light on", "delves into".
-2. One finding per sentence.
-3. Every percentage names its baseline in the same sentence.
+2. Keep multi-finding sentences intelligible; split them when their logic becomes hard to follow.
+3. State the comparator for a quantitative gain in the sentence or clear nearby context.
 4. No citations, no notation, no undefined acronyms.
 5. About 200 words is the ceiling; keep the findings and the strongest supported close.
 6. "Novel" appears at most once, attached to the framework.
 7. State quantitative gains by regime when the result makes such a comparison.
-8. The tool's name may appear once.
+8. Repeat the tool's name when it aids clarity.
 9. No theorem numbers in the abstract.
 
 ## Checklist

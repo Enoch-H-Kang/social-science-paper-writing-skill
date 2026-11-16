@@ -6,7 +6,7 @@ Run an adversarial, reviewer-style pass to find rejection risks before submissio
 
 ## Critical Rule
 
-Every major claim, especially in the Abstract and Introduction, must be technically correct and supported by a proposition, an estimate with fit, or a benchmarked gain. If a claim is unsupported, add support or weaken it.
+Every major claim, especially in the Abstract and Introduction, needs support appropriate to its stated strength: an analytical proof, estimate and model check, benchmark, sourced institutional fact, documented case, explicitly suggestive descriptive, or implementation argument. If a claim exceeds that support, add evidence or narrow it.
 
 ## Common Rejection Dimensions
 
@@ -15,7 +15,7 @@ Every major claim, especially in the Abstract and Introduction, must be technica
 | 1. Unmotivated assumptions | Material assumptions are hard to find or undefended; no statement of what each rules out or bounds. |
 | 2. Incomplete formal answer | For an explanatory dichotomy, the model generates one side only; for another question, the formal result does not answer it under its assumptions. |
 | 3. Identification asserted or guarantees overclaimed | Structural: identification not argued. ML: guarantees implied but not provided. |
-| 4. Counterfactuals before fit | Fit shown only on targeted moments, or counterfactuals run before validation. |
+| 4. Counterfactuals without model checks | Body counterfactuals rely on unchecked fit, or fitted-sample checks are described as independent held-out evidence. Truthful introductory previews are allowed. |
 | 5. Unfair or weak benchmarks | For comparative performance claims: untuned rivals, missing relevant status-quo baseline, or gain not located by regime. |
 | 6. Intuition missing | Formalism without plain-words restatement; comparative statics as bare monotonicity. |
 | 7. Unsupported incentive or welfare claims | The economic structure behind the claim is absent. |
@@ -25,35 +25,35 @@ Every major claim, especially in the Abstract and Introduction, must be technica
 ### 1. Assumptions and Setup
 
 1. Is every material assumption identifiable, motivated, and connected to the claims it bounds? Number it if that improves clarity.
-2. Is every functional form defended by required properties or tractability?
+2. Are consequential functional forms defended by required properties, institutional fit, or tractability?
 3. Is any non-modeled feature ruled out with a stated reason?
 4. For an explanatory dichotomy, does the model generate both sides? For another formal question, does the result answer it under its assumptions?
 
 ### 2. Validation Discipline (by track)
 
 1. Theory: is the comparator or benchmark needed by the claim identified? For a capability theorem, does the statement match the claimed sufficiency, necessity, or equivalence under its conditions?
-2. Structural: is fit shown against untargeted moments for all competing models, before counterfactuals?
-3. ML: do limiting cases nest the incumbents, and do ablations hurt where the intuition says?
+2. Structural: are fitted-sample model checks described accurately, and are stronger held-out or untargeted claims backed by such evidence? Do relevant checks precede body counterfactuals?
+3. ML: do claimed limiting cases and ablation effects match the tested results, including reversals?
 4. Is identification argued in words, with a worked example (structural)?
 
 ### 3. Benchmark Fairness
 
-1. For comparative performance claims, are rivals tuned with disclosed grids?
+1. For comparative performance claims affected by tuning, is the rival protocol fair and disclosed?
 2. Is a relevant status-quo practice among the baselines when the claim invokes it?
 3. Is a claimed gain located by regime, including where it vanishes when relevant?
 4. Are cost and runtime reported when they matter to the claimed advantage or deployment?
 
 ### 4. Intuition and Clarity
 
-1. Does an intuition paragraph precede each formal block?
+1. Is plain-language interpretation near each important formal block, whether before or after it?
 2. Is every proposition restated in plain words?
 3. Is notation unique and stable?
 4. Does each paragraph carry one message?
 
 ### 5. Claim–Evidence Map
 
-1. Does every Abstract and Introduction claim have a support entry (proposition, estimate plus fit, or benchmarked gain)?
-2. Do headline numbers match across sections?
+1. Can each major Abstract and Introduction claim be mapped to appropriate support, including facts, cases, proofs, suggestive descriptives, and implementation arguments?
+2. Do headline numbers agree in substance across sections, allowing compatible rounding?
 3. Is every incentive or welfare claim backed by explicit economic structure?
 4. Are anomalies surfaced and resolved?
 
@@ -68,9 +68,9 @@ Every major claim, especially in the Abstract and Introduction, must be technica
 ## Checklist
 
 1. No dimension 1–5 risk remains open.
-2. Validation precedes every counterfactual.
-3. Benchmarks for comparative performance claims are tuned and disclosed, with the relevant status quo when applicable; otherwise record `not applicable — reason`.
-4. Every Abstract and Introduction claim has a support entry.
+2. Relevant model checks precede body counterfactuals built on them; introductory previews remain truthful.
+3. Benchmarks for comparative performance claims use fair disclosed tuning when tuning affects the claim, with the relevant status quo when applicable; otherwise record `not applicable — reason`.
+4. Every major Abstract and Introduction claim has an appropriate support entry in the reviewer’s map.
 5. Every proposition has a plain-words restatement.
-6. Limitations and scope conditions are attached to the claims they bound.
+6. Decisive conditions are attached to the claims they bound; broader limitations may be gathered later.
 7. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.

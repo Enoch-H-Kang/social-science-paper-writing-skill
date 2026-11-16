@@ -11,10 +11,12 @@ The introduction must establish the question or obstacle before the solution. By
 3. What are the primitives of the tool, and what do they make computable?
 4. Which track arc do the results follow (theory, structural, ML)?
 5. What result, capability, or decision follows for the relevant actor or analyst?
-6. Which two literatures does the paper address, and what can neither do alone?
+6. Which literatures does the paper address, and what does each contribute to the question?
 7. What is the one-sentence version of the question or obstacle?
 
 ## Section Skeleton
+
+**Source and variation.** The opening options come from separate theory, structural, and ML-method exemplars. Question or obstacle before the offered tool recurs across them. The four-step outline, contribution labels, and optional roadmap are editorial adaptations, not one shared paper architecture.
 
 ```latex
 \section{Introduction}
@@ -29,7 +31,7 @@ The introduction must establish the question or obstacle before the solution. By
 
 1. **Anecdote dichotomy (theory).** Matched real-world cases on both sides of the behavior, then an explicit escalating list of research questions.
 2. **Institution plus friction (structural).** Define the unfamiliar market, document its stakes, name the economic friction, and state the gap explicitly.
-3. **Incumbent-practice taxonomy (ML).** The two ways practitioners now solve the task, each with its virtue and its named failure mode; the method will inherit both virtues.
+3. **Incumbent-practice taxonomy (ML).** Describe tested approaches and their measured strengths or limits; explain what the proposed hybrid actually combines.
 4. **Task or capability sought (theory, optional extrapolation).** State what an actor or analyst needs to accomplish, then the open feasibility or adequacy question before the enabling construction.
 
 ## The Diagnosis Paragraphs
@@ -60,12 +62,12 @@ The introduction may preview a full formal or empirical demonstration that appea
 
 1. Opening with the literature.
 2. Opening with the method before the problem exists.
-3. A challenge list that is a complaint about prior accuracy.
-4. Findings in the order the analyses were run.
-5. Contributions that restate findings.
-6. A paragraph whose first sentence does not state its message.
+3. An unsupported complaint about prior accuracy; measured failure can motivate the method.
+4. Findings ordered without regard to the paper's question or argument.
+5. Contributions that repeat findings without explaining why they matter.
+6. A paragraph that introduces a case or formal object but never draws its lesson.
 7. Opening with "recent advances in [technology]".
-8. Presenting the method as an improvement over a naive version of itself.
+8. Presenting an untested naive comparison as established evidence.
 9. Hiding the absence of formal guarantees. State it and give limiting cases instead.
 
 ## Checklist

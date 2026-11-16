@@ -1,6 +1,6 @@
 # Model and Framework Writing Guide (Method Papers)
 
-The core guide of this skill. A "method section" is one of three things, an analytical model, a structural or estimation framework, or an ML or algorithmic method. All three are written primitives-first and intuition-first.
+The core guide of this skill. A "method section" may present an analytical model, a structural or estimation framework, or an ML or algorithmic method. Explain primitives and economic meaning close to the formal objects, in either order.
 
 ## Pre-Writing Questions
 
@@ -16,57 +16,63 @@ If a component has no answer to question 4, it is engineering, not a contributio
 
 ## Analytical / Game-Theoretic Model
 
-1. **Primitives in words first.** Actors, wants, information, timing of moves, and the two forces in tension, all before notation. A reader should be able to retell the game after one page.
+**Source and variation.** The candidate-equilibrium, benchmark, main-result, comparative-static, and extension sequence follows the theory exemplar. Nearby interpretation recurs in the analytical hybrid. The numbered steps and proposition-by-objection structure are adaptable presentation aids.
+
+1. **Make primitives intelligible.** Explain actors, objectives, information, timing, and relevant forces near their notation. A reader should be able to retell the game after the setup.
 2. **Setup.** Introduce notation as needed, each symbol defined in the sentence that introduces it, with its economic meaning.
 3. **Defend functional forms.** List the required properties, then choose the simplest form that satisfies them. Absorb objections into footnotes.
-4. **Equilibrium concept and why it fits,** in two sentences.
+4. **Equilibrium concept and why it fits,** explained at the length the reader needs.
 5. **Candidate equilibrium first.** State the equilibrium you will verify, then verify it.
-6. **Benchmark model.** The no-X benchmark gives the main behavior its meaning as a deviation from it; present it before the main result.
-7. **Propositions with intuition first.** Plain-words statement of what happens, for whom, and why, adjacent to the formal statement. Proofs go to the appendix unless the proof is the intuition. Use italic-titled interpretive interludes to name the economic concept a result instantiates.
+6. **Benchmark model, when useful.** A no-X benchmark can clarify the main result; place it before the result it interprets.
+7. **Propositions with nearby interpretation.** A plain-words explanation may precede or follow the formal statement. Use interpretive interludes when they clarify the economic force.
 8. **Comparative statics with economic names.** Parameter, direction, and driving force; never bare monotonicity.
 9. **The dichotomy check, when explaining two observed regimes.** Show the model generates both in different parameter regions. For other formal questions, check that the statement answers the question under its assumptions.
-10. **Extensions** are the three most obvious objections, each preempted with its own proposition, each extracting new insight.
+10. **Extensions** address the consequential objections or omitted features; formalize those that need a proposition.
 
 ## Structural / Estimation Framework
 
+**Source and variation.** Decision states, selection, identification, estimates, fitted-sample checks, and counterfactuals follow the structural exemplar. Explaining consequential assumptions recurs across method papers. The exact state ordering and nested-model roster are source-specific options.
+
 1. **The decision as the agent faces it:** what is chosen each period, from what set, trading off what, including the options to wait, cancel, or do nothing when these appear in the data.
-2. **State variables in a fixed order:** observed and unobserved, each split into time-invariant and time-varying. Introduce unobservables with concrete behavioral stories.
-3. **Where the bias lives.** Name the selection or dynamic problem here, not in robustness: which unobserved heterogeneity exists and which way ignoring it biases the headline parameter.
+2. **State variables in a clear order:** distinguish observed from unobserved and time-invariant from time-varying where the model uses those distinctions.
+3. **Where the bias lives.** Name the selection or dynamic problem and explain a direction only under assumptions that support it.
 4. **Defend specification choices in paired alternatives:** the rejected option and why. Rule out non-modeled features with data-based reasons.
 5. **Identification in prose** with a worked example; formal proof is deferred. Say which variation pins down each key parameter.
 6. **Estimation in a replicator's order:** moments or objects, then the objective, then computation. Treat computational burden as narrative: justify each choice by tractability, with the infeasible alternative sketched.
-7. **Keep nested inferior models** (static, fewer types) estimated and on stage so the bias claim is demonstrated, not asserted.
-8. **Fit and validation** against untargeted or held-out moments, stated before any counterfactual.
+7. **Use restricted models when they test a bias or fit claim.** Static or fewer-type variants can show what changes under the richer specification.
+8. **Label model checks accurately.** Fitted-sample comparisons of predicted and observed choices are model checks; they are not independent held-out or untargeted validation. Use a holdout when the claim requires one.
 
 ## ML / Algorithmic Method
+
+**Source and variation.** Tutorials, measured pure-approach diagnosis, a hybrid, and horizon comparisons follow the ML-method exemplar. Question-first motivation and calibrated performance claims recur across method papers. Primer length and benchmark roster are editorial adaptations.
 
 1. **Estimand or task before algorithm:** define what is predicted or decided, and why it is the primitive the decision needs.
 2. **Diagnosis as part one of the paper.** Each pure approach gets a tutorial, its actual configuration shown, and a result. Close with a verdict table and a cost comparison.
 3. **The method as a modular framework** with a flagship instantiation: pseudocode, hyperparameters, and limiting cases that nest the incumbents (one setting recovers approach A, another recovers approach B). State honestly when formal guarantees are open.
-4. **Tutorial generosity.** Assume a quantitatively sophisticated reader who is not an ML specialist: a two-paragraph primer plus intuition for every borrowed technique.
+4. **Tutorial generosity.** Give unfamiliar techniques enough explanation for a quantitatively sophisticated non-specialist; place intuition near the algorithm.
 5. **Motivate design choices with business constraints:** cost, privacy, compatibility with existing systems.
-6. **Benchmark roster** with disclosed tuned grids and a fair protocol, including the status-quo practice.
+6. **Benchmark roster** with a fair, disclosed protocol. Report tuning and the status-quo practice when those matter to the comparative claim.
 
 ## Writing Rules for All Three
 
-1. **Intuition paragraph before formalism** at the top of every model or framework section: five to eight lines, no notation, that a coauthor from another field could repeat.
+1. **Economic explanation near formalism.** A definition, algorithm, or proposition may come first if interpretation follows closely and remains intelligible.
 2. **One notation, everywhere.** Keep a notation table while drafting.
 3. **Material assumptions are identifiable, motivated, and connected to the claims they bound.** Numbering is an option; explain what each rules out.
-4. **Every modeling choice answers a challenge** or traces to the institutional setting.
-5. **Never write the framework as an improvement over a naive version of itself.**
+4. **Consequential modeling choices** answer a challenge or trace to the institutional setting.
+5. **Use measured restricted-version failures** when they help explain the full framework; label the tested comparison.
 
 ## Clarity Check
 
 1. Logic: summarize the section's argument in three sentences without notation.
-2. Paragraph: the first sentence states the message; one paragraph, one message.
+2. Paragraph: develop a coherent lesson; cases or formal objects may appear before the conclusion.
 3. Sentence: can you say why the reader needs it here? Sentences that exist "for completeness" move to the appendix.
 
 ## Checklist
 
 1. Does each component pass the five pre-writing questions?
 2. Is the track-specific order followed (theory, structural, or ML)?
-3. Does an intuition paragraph precede every formal block?
+3. Is economic interpretation close enough to each important formal block to make it intelligible?
 4. Is each material assumption findable, motivated, and connected to the claim it bounds?
 5. Is the notation unique, with one symbol per object?
-6. Is every modeling choice defended on the spot?
-7. For an explanatory dichotomy, does the model generate both sides? For another formal result, does it answer its question under its assumptions? Are nested inferior models kept on stage (structural), or do limiting cases nest the incumbents (ML)?
+6. Are consequential modeling choices explained where they matter?
+7. For an explanatory dichotomy, does the model generate both sides? For another formal result, does it answer its question under its assumptions? Are restricted models or limiting cases shown when the claimed comparison depends on them?

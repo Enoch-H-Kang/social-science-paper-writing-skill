@@ -1,6 +1,8 @@
 # Introduction Question-Set Template (Research Agenda, §1.2)
 
-The signature move of the empirical introduction: numbered question sets, then challenges with named failures, then the mapping of components to challenges. Content is generic; replace brackets.
+One possible empirical introduction move: question sets, challenges, then a component mapping. Replace bracketed placeholders.
+
+**Source and variation.** The question-set/challenge/component sequence follows the targeting hybrid's introduction. Both empirical exemplars ask market questions and connect them to evidence, but the field experiment uses prose question groups without this exact challenge block. The generic variables and optional numbering are editorial adaptations.
 
 ```latex
 \subsection{Research Agenda}
@@ -11,7 +13,7 @@ The signature move of the empirical introduction: numbered question sets, then c
 % Mapping: which component answers which challenge
 ```
 
-## Question sets (three at most)
+## Question sets (use the number the paper needs)
 
 1. `The first set of questions relates to [efficiency / the average effect]: How can [actor] use [data] to [decision]? How can we evaluate [policies] in factual and counterfactual settings? What is the gain from [the efficient policy]?`
 2. `The second set relates to the value of [ingredients]: What is the relative value of [A] versus [B]?`
@@ -19,7 +21,7 @@ The signature move of the empirical introduction: numbered question sets, then c
 
 ## Challenges
 
-`There are [two/three] main challenges to answering these questions. First, [counterfactual challenge: we observe outcomes only for the option chosen, and [selection mechanism] makes the unobserved option's outcome impossible to infer without variation]. Second, [prediction or estimation challenge: a weak model of [outcome] biases the estimated value of [ingredient] [downward/upward]]. Third, [incentive or structure challenge: without a model of how [actors] respond, no statement about [payoff] is possible, however accurate the predictions].`
+`The relevant challenges are [counterfactual or variation challenge], [prediction or estimation challenge, with a bias direction only if established], and [incentive or structure challenge if the question needs one].`
 
 ## Mapping sentence
 
@@ -27,7 +29,7 @@ The signature move of the empirical introduction: numbered question sets, then c
 
 ## Checklist
 
-1. At most three question sets, and every question is answered by a later section.
+1. Does each question connect to a later answer, whether questions are listed or written in prose?
 2. Every challenge names the failure that follows from ignoring it.
 3. Every component maps to at least one challenge, and every challenge to a component.
-4. Challenges describe what answering the question requires, not complaints about prior accuracy.
+4. Do challenges describe what answering the question requires, including measured prior failures when relevant?

@@ -1,6 +1,8 @@
 # Abstract Template: Structural (Estimate and Counterfact)
 
-Ten slots. Content is generic and invented; replace every bracket.
+Ten optional slots with invented placeholders; replace every bracket.
+
+**Source and variation.** The institution → friction → dynamic framework → behavior → valuation architecture follows the structural exemplar. Question-first motivation and conditional claims recur across method exemplars. Numerical bias, sample scale, a dollar payoff, and the exact slot count are editorial adaptations, not requirements of its abstract.
 
 ```latex
 \section{Abstract}
@@ -10,10 +12,10 @@ Ten slots. Content is generic and invented; replace every bracket.
 % Contribution = the framework
 % The agent's per-period decision
 % Its tradeoffs
-% Bias hook: what naive estimation gets wrong, and which way
+% Bias hook: when a restricted model can misstate the parameter
 % Data in one clause
 % Findings
-% Counterfactual payoff in money or guidelines
+% Valuation exercise and managerial use; amount optional
 ```
 
 ## Reusable skeleton
@@ -24,19 +26,19 @@ Ten slots. Content is generic and invented; replace every bracket.
 4. `We develop a [dynamic structural] framework to [answer the question].`
 5. `In each period, [agent] chooses among [options].`
 6. `The choice trades off [benefit] against [cost / option value of waiting].`
-7. `Ignoring [dynamics / selection] biases [parameter] [upward/downward]; our framework corrects this by [mechanism, e.g. allowing for persistent unobserved heterogeneity].`
-8. `We apply it to [data from SETTING, with scale].`
-9. `We find that [agents are forward-looking / the effect is X], and that models ignoring [feature] [misstate the result by Y%].`
-10. `Counterfactuals show that [change] is worth [dollar value] to [actor], which implies [guideline].`
+7. `Ignoring [dynamics / selection] can [bias parameter under stated conditions]; our framework accounts for [mechanism].`
+8. `We apply it to [data from SETTING; scale if useful].`
+9. `We find [forward-looking behavior], [buyers' substantive valuation of reputation or the focal feature], and [diagnostic result about restricted models, with a number only if useful].`
+10. `The framework allows us to infer the dollar value of [reputation or focal feature] and inform [managerial decision or audience].`
 
 ## Usage rules
 
-1. The bias hook names the direction of the bias and the reason the framework fixes it.
-2. Every quantity in sentence 9 or 10 carries a baseline.
+1. A bias direction is conditional on the evidence and assumptions that support it.
+2. A quantitative comparative gain needs a recoverable comparator; absolute estimates need no gain baseline.
 3. Reuse the sentence logic, not the wording.
 
 ## Checklist
 
 1. Is the framework the contribution sentence?
-2. Does the bias hook state a direction?
-3. Does the last sentence give money or a guideline?
+2. Is any bias direction qualified by its conditions?
+3. Does the close state a supported valuation result, valuation exercise, or managerial use?
