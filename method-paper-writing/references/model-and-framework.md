@@ -67,6 +67,7 @@ Open a multi-part model section with a compact roadmap paragraph mapping each mo
 4. **Place conditions at their objects.** State each material condition once, in prose where the object it constrains is introduced, and explain in the same passage what it makes possible, identifies, or rules out. Do not collect conditions in an upfront list, an "Assumptions" section, or a summary paragraph that repeats conditions stated in subsections; duplication between a list and the body is a defect. Use a formal numbered assumption environment only when results in other sections need to cite the condition by a handle, and still state it at its object rather than in a separate upfront block.
 5. **Consequential modeling choices** answer a challenge or trace to the institutional setting.
 6. **Use measured restricted-version failures** when they help explain the full framework; label the tested comparison.
+7. **Assemble model setup in the reader's building order.** Present environment and primitives first, weaving who observes what into the objects as they appear (observed before unobserved); then give the timeline or protocol. Present the objective or payoff as one component among the others under a plain component heading, never a question-form or evaluative heading. Stop at the environment: state objects without deriving consequences there, and give learning, estimation, and solution machinery its own section or place it with the results it serves.
 
 ## Clarity Check
 
