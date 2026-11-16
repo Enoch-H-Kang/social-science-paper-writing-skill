@@ -73,4 +73,6 @@ Every major claim, especially in the Abstract and Introduction, needs support ap
 4. Every major Abstract and Introduction claim has an appropriate support entry in the reviewer’s map.
 5. Every proposition has a plain-words restatement.
 6. Decisive conditions are attached to the claims they bound; broader limitations may be gathered later.
-7. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.
+7. Flag every sentence a non-specialist must reread, parse through nested clauses, or look up a word to understand; check first-use definitions without dropping terms of art, numbers, or qualifications.
+8. Every citation in the draft is verified to exist and supports its exact claim; every `[CITATION NEEDED: <the claim>]` placeholder is resolved or reported to the user.
+9. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.

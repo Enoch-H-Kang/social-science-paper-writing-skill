@@ -10,6 +10,15 @@ Place the paper among the substantive and methodological literatures its questio
 2. Use paragraphs or distributed discussions of the length each comparison needs.
 3. State the paper's position where the comparison becomes informative; a final combination sentence is optional.
 
+## Finding citations
+
+1. **Mark, don't invent.** When a contextual fact, method capability or failure mode, closest-work contrast, or established piece of machinery needs support, mark the claim as needing a citation instead of writing a reference from memory.
+2. **Search for candidates.** Check publisher pages, scholarly indexes, and the literature citing the closest work.
+3. **Verify before use.** Use a candidate only after seeing a real record whose title, authors, venue, and year match; prefer the canonical journal version over a working paper.
+4. **Attach to the exact claim.** The citation must support the sentence it sits in; support for a neighboring claim does not count.
+5. **Leave visible gaps.** If no verified source is found, leave `[CITATION NEEDED: <the claim>]` in the draft and list it in the report to the user. Never fill the gap with a plausible-sounding reference.
+6. **Keep a running list.** Record each found citation with the exact claim it supports.
+
 ## Paragraph Template (per literature)
 
 **Source and variation.** The structural exemplar groups four streams, while the ML-method exemplar distributes related work across sections. Precise closest-work distinctions recur; the four paragraph slots are editorial aids rather than a required common layout.

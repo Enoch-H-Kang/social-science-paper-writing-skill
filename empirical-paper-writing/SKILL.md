@@ -36,7 +36,7 @@ Use the slots that match the paper's claims. If a necessary answer is missing, f
 6. **Run the claim map** (Output Contract). Match each major claim to its appropriate support: an identified estimate, policy evaluation, sourced institutional fact, documented case, analytical proof, explicitly suggestive descriptive, or implementation argument. Evaluate each at its stated strength.
 7. **Run the adversarial review** in `references/paper-review.md` and revise until no high-risk item is open.
 
-## The Ten Rules
+## The Twelve Rules
 
 1. **Start from the market question.** A plain fact about a market practice can open the paper ("Trial offers are a common customer-acquisition strategy in subscription software"). Measured prediction or method failures can also motivate the question when their evidence and scope are clear.
 2. **Name the actors, objectives, and relevant constraint or tension.** Describe conflicting incentives when they exist; opposing effects or an unresolved decision can also motivate the paper.
@@ -47,7 +47,9 @@ Use the slots that match the paper's claims. If a necessary answer is missing, f
 7. **End on the strongest supported finding, caution, boundary, or implication.** State an incentive reversal or actor rule when the evidence supports one; qualify the claim where it appears.
 8. **Keep economic explanation near the math.** A formal definition or proposition may precede its plain-language interpretation. Give the practical perspective when relevant and supported.
 9. **Crisp is a quality standard.** Short declarative sentences, one finding per sentence, numbers inside the sentence, terms defined by what an actor does before they are defined by notation. Cut any sentence a reader must parse twice.
-10. **Explain identification in the main text.** Name the source of variation and material selection threats. State a bias direction when the evidence supports one; do not invent its sign.
+10. **Plain by default.** Write so a smart reader outside the subfield can follow every sentence on first reading. Prefer everyday words to Latinate or nominalized ones, and verbs to noun phrases built from nouns ("decides," not "makes a decision regarding the utilization of"). Define each technical term in plain words at first use; then use the term itself. Dumb down the explanation, never the content: keep the field's term of art, number, and qualification while simplifying how they are said. A sentence fails if a non-specialist must reread it, parse a stack of nested clauses, or look up a word.
+11. **Find citations, never invent them.** Mark claims needing support, verify sources, and attach each citation to its exact claim; follow `references/literature-and-positioning.md`.
+12. **Explain identification in the main text.** Name the source of variation and material selection threats. State a bias direction when the evidence supports one; do not invent its sign.
 
 ## Empirical paper choices
 
