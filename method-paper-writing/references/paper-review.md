@@ -73,3 +73,4 @@ Every major claim, especially in the Abstract and Introduction, must be technica
 4. Every Abstract and Introduction claim has a support entry.
 5. Every proposition has a plain-words restatement.
 6. Limitations and scope conditions are attached to the claims they bound.
+7. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.

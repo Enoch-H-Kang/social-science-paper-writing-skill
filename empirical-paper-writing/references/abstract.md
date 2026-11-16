@@ -32,7 +32,7 @@ Use when the paper has exogenous variation (a field experiment, a natural experi
 7. **Long-run extension** (optional). Whether the short-run result survives in long-run outcomes.
 8. **Heterogeneity as a who-gets-what rule.** Which segment should get which treatment.
 9. **Cautionary or negative twist** (optional, powerful). Personalization does not always beat a simple uniform rule, and rival methods lose. Ending on the caveat rather than the win signals honesty.
-10. **Implication.** What an actor should do (for example, evaluate offline before deploying personalization).
+10. **Implication.** What an actor should do (for example, evaluate offline before deploying personalization), with the rule's scope in the same sentence or the sentence before.
 
 Fill-in skeleton: `examples/abstract-templates.md`.
 
@@ -47,7 +47,7 @@ Use when a measurement component built on large-scale causal or platform data is
 5. **Headline number versus a named baseline.** Exact percentage.
 6. **Decomposition.** Which ingredient carries the gain (for example behavioral versus contextual information).
 7. **Incentive result.** The nonmonotonicity or reversal, stated as what the actor prefers.
-8. **Implication for regulation or design.** The last sentence is a policy claim, not a method claim.
+8. **Implication for regulation or design.** The last sentence is a policy claim, not a method claim; carry the rule's scope in that sentence or the one before it.
 
 Fill-in skeleton: `examples/abstract-templates.md`.
 
@@ -64,5 +64,5 @@ Fill-in skeleton: `examples/abstract-templates.md`.
 
 1. Can a reader extract in one pass: practice, tradeoff, questions, components, average effect, mechanism verdict, policy value, implication?
 2. Is every number baselined, and is every claim traceable to a result in the body?
-3. Does the last sentence tell a named actor what to do or expect, rather than "more research is needed"?
+3. Does the last sentence tell a named actor what to do or expect, rather than "more research is needed"? Flag a close without one compact clause in that sentence or the one before it stating the conditions the rule depends on (information or record arrangement, payment or contract class, behavioral assumption, as applicable).
 4. Read aloud: does any sentence need a second parse? Split it.

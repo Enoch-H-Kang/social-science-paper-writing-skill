@@ -1,10 +1,10 @@
-# Abstract Template: Theory (Explain a Dichotomy)
+# Abstract Template: Theory (Explain a Dichotomy or Price Delegation)
 
 Nine slots. Content is generic and invented; replace every bracket.
 
 ```latex
 \section{Abstract}
-% Dichotomy stated as observed behavior
+% Opening: observed dichotomy or price-of-delegation / mechanism-design decision problem
 % Gap: existing models cannot explain it
 % Offer: a model that explains the divide
 % Premise: the two roles or forces, in plain words
@@ -17,7 +17,7 @@ Nine slots. Content is generic and invented; replace every bracket.
 
 ## Reusable skeleton
 
-1. `There exists a dichotomy in [market]: some [actors] [action 1], whereas others [action 2].`
+1. Choose one: **Observed dichotomy:** `There exists a dichotomy in [market]: some [actors] [action 1], whereas others [action 2].` **Price-of-delegation / mechanism-design decision problem:** `[Actor] cannot fully specify [decision] in advance; [delegate] can profitably shortcut the agreed process; we price or characterize a mechanism that prevents the shortcut.`
 2. `This divide cannot be explained by existing [class of] models.`
 3. `We offer a model of [phenomenon] that explains it.`
 4. `The model's key premise is that [actors] play two roles at once: [role 1] and [role 2].`

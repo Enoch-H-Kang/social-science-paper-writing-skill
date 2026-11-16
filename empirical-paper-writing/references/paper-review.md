@@ -75,3 +75,4 @@ Answer each with explicit evidence from the paper.
 4. Scope conditions and limitations appear in the text, attached to the claims they bound.
 5. Headline numbers match across all sections.
 6. Every item marked `needs new analysis` is either done or the claim it supports is weakened.
+7. For a multi-file LaTeX project, before declaring the revision complete, verify that the main file inputs/includes the edited section files; flag and synchronize any embedded duplicate text blocks, including those between marker comments.
