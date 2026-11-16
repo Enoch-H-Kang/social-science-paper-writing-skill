@@ -25,11 +25,11 @@
 
 ## Policy Value
 
-1. Introduce the formal policy setup where it helps the question; explain its economic purpose nearby.
+1. Open an off-policy evaluation subsection by announcing the empirical evaluation and quantifying gains over benchmark policies; do not re-explain model construction from an earlier subsection. Assign compact symbolic handles (for example, $\pi_{\text{lasso}}$, $\pi_{30}$) and define each as a formal treatment-prescription rule mapping covariates to a treatment.
 2. State the policy space and why brute force fails (the number of possible assignments explodes with covariates).
-3. For a learned treatment policy's value, use an independent holdout or suitable off-policy estimator (such as inverse propensity scoring). Fitted-sample structural model checks support a different claim.
-4. Compare with the relevant institutional status quo, best uniform policy when it is a meaningful alternative, or another comparator dictated by the question; test a personalized-versus-uniform gap when claiming it.
-5. Own modest gains and give a mechanical reason (little heterogeneity to exploit, small segments).
+3. For a learned treatment policy's value, use an independent holdout or suitable off-policy estimator (such as inverse propensity scoring). For inverse propensity scoring, explain propensity scaling and the pseudo-population intuition, then immediately give the formal estimator and define its notation: "Formally, $\widehat R_{\mathrm{IPS}}(\pi)=n^{-1}\sum_{i=1}^{n}\mathbf 1\{A_i=\pi(X_i)\}Y_i/e_i(A_i\mid X_i)$," where $X_i$ are covariates, $A_i$ assigned treatment, $Y_i$ observed reward, $e_i$ assignment propensity, and $\pi$ the proposed policy. Preserve counterfactual modality: "expected rewards," "proposed policy," "if we were to implement," and "we see that." Fitted-sample structural model checks support a different claim.
+4. Compare with the relevant institutional status quo, then the best uniform policy when it is a meaningful alternative; test a personalized-versus-uniform gap when claiming it. Without a redundant umbrella topic sentence, signpost the hierarchy: "The key finding is that..." for the status-quo baseline, then "Furthermore, we see that..." for the best uniform benchmark.
+5. Own modest gains and give a mechanical reason (little heterogeneity to exploit, small segments). When segmentation has its own subsection, leave treatment-assignment segment shares out of the reward comparison and stop after stating best-uniform dominance; reserve the segment shares and their synthesis for segmentation.
 6. Where long-run outcomes exist, report them and explain which short-run measures act as surrogates; say what is lost when policies are optimized on the short run.
 
 ## Negative Results and Robustness
@@ -41,7 +41,7 @@
 ## Style
 
 1. Give a comparator for quantitative gains, either locally or through clear nearby context; absolute quantities need no gain baseline.
-2. Put numbers in sentences rather than behind table pointers.
+2. Open a results block by pointing to the relevant table or panel and equating theoretical estimator targets with empirical outcome metrics (for example, "We present the expected rewards (or subscription rates)... in the top panel of Table 8"). Still state headline gains directly in prose, with numbers in sentences rather than behind table pointers.
 3. A "managers should…" sentence may close each results subsection.
 4. Keep headline numbers substantively consistent across sections; compatible rounding and contextual baselines are acceptable.
 

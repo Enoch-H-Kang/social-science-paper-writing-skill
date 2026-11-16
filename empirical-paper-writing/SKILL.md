@@ -22,7 +22,7 @@ This skill works on its own. If the sibling is not installed, apply the track ru
 
 Before any sentence-level edit, the paper must pass this test in one breath:
 
-> A named actor in a real market faces [decision] under [relevant constraint or tension]. We answer [research questions] with [design or framework], using [data / variation / model]. We find [supported effects and mechanisms]. This implies [policy, caution, boundary, or other payoff], with [quantified gain versus a named baseline] when a gain is claimed.
+> A named actor in a real market faces [decision] under [relevant constraint or tension]. We answer [research questions] with [design or framework], using [data / variation / model]. We find [supported effects and mechanisms]. Our results suggest [policy, caution, boundary, or other payoff], with [quantified gain versus a named baseline] when a gain is claimed.
 
 Use the slots that match the paper's claims. If a necessary answer is missing, fix the argument before polishing prose.
 

@@ -44,14 +44,14 @@ Fill-in skeleton: `examples/abstract-templates.md`.
 
 Use when a measurement component built on large-scale causal or platform data is paired with an economic model to study market outcomes or regulation. Eight slots:
 
-1. **Practice.** The market fact, with scale.
+1. **Practice and catalyst.** State the market fact, with scale, in one plain sentence. Follow with "Although these [ads / practices] have [property], they have raised concerns among [actor]."
 2. **The debate, naming its three objects:** the value of [information or design lever], the incentives of [actor] to [action], and the role of [regulation or design choice].
 3. **Hinge.** "To answer these questions, we propose a unified framework with two components: [measurement component] and [economic model] for counterfactuals."
 4. **Data** in one clause: scale and source.
 5. **Headline comparison.** A percentage and relevant baseline when a quantitative gain is claimed; compatible rounding is fine.
 6. **Decomposition.** Which ingredient carries the gain (for example behavioral versus contextual information).
-7. **Incentive result.** The nonmonotonicity or reversal, stated as what the actor prefers.
-8. **Implication for regulation or design,** when supported; a result, caution, or boundary may close instead.
+7. **Incentive result.** Enter counterfactuals directly, without an adversative "However," against the prediction gain; put the "although" contrast inside the counterfactual sentence. Keep the plain-language definition of "nonmonotonic" in that sentence, attached with "; that is,". State the positive revenue-maximizing regime in its own sentence: "Rather, it is maximized when..."
+8. **Implication for regulation or design,** when supported; a result, caution, or boundary may close instead. When extrapolating from counterfactuals to a broader regulatory conclusion, prefer "Our results suggest that [actors] may have..." over "imply."
 
 Fill-in skeleton: `examples/abstract-templates.md`.
 
@@ -61,12 +61,13 @@ Name the setting early. Attach decisive conditions to the claims they bound, exp
 
 ## Sentence-Level Rules
 
-1. Verbs do the work: *we use, we find, we show, we develop, we evaluate, we rule out*. No "leverages", "sheds light on", "delves into".
+1. Verbs do the work: *we use, we find, we show, we offer, we develop, we evaluate, we rule out*. No "leverages", "sheds light on", "delves into". Use first-person possessives for the contributed method and final takeaways ("our framework," "our machine learning framework," "our results"), but leave standard analytical exercises unpossessed ("Theoretical and empirical counterfactuals show"). Do not stack reporting clauses in consecutive sentences ("We find that..." then "We further show that..."); let the phenomenon lead the follow-on decomposition ("These gains mainly stem from...").
 2. Keep multi-finding sentences intelligible; split them when their logic becomes hard to follow.
 3. State the comparator for a quantitative gain, in the sentence or clear nearby context.
 4. No citations, no notation, no acronym that the abstract does not itself define.
 5. About 200 words is the ceiling. The cut comes from framework detail; keep the findings and the strongest supported close.
 6. Use novelty language only when the specific contribution is supported; no word quota is required.
+7. When a regime label is an ordinary English verb or noun, such as `cloak` or `flaunt`, use it directly as a verb on first mention, without a parenthetical or quotation-mark gloss.
 
 ## Checklist
 

@@ -37,7 +37,9 @@ For theorem statements, result dependencies, and proof writing, read [Theorem St
 
 **Source and variation.** Decision states, selection, identification, estimates, fitted-sample checks, and counterfactuals follow the structural exemplar. Explaining consequential assumptions recurs across method papers. The exact state ordering and nested-model roster are source-specific options.
 
-1. **The decision as the agent faces it:** what is chosen each period, from what set, trading off what, including the options to wait, cancel, or do nothing when these appear in the data.
+Open a multi-part model section with a compact roadmap paragraph mapping each modular block to its explicit subsection number (for example, §X.1, §X.2, §X.4.1).
+
+1. **Model Setup: the decision as the agent faces it.** Before the institutional timeline, declare index sets (time $t \in \{1,\dots,T\}$ and population $i \in \{1,\dots,N\}$), formal decision notation ($d_{it}$), unit-of-observation equivalences ("with some abuse of notation"), and preferences over state sequences across $t = 1,\dots,T$. Keep agency centered on the modeled decision-maker, including the options to wait, cancel, or do nothing when these appear in the data; do not introduce non-modeled market sides as active subjects. Complete the abstract timing lifecycle first: period-1 start, each period's choice set with state-dependent feasibility hedges such as "(if any)," and terminal or expiry stopping conditions. Then mark empirical calibration explicitly: "In our data and analysis, one period is equivalent to [unit], and T = [value]."
 2. **State variables in a clear order:** distinguish observed from unobserved and time-invariant from time-varying where the model uses those distinctions.
 3. **Where the bias lives.** Name the selection or dynamic problem and explain a direction only under assumptions that support it.
 4. **Defend specification choices in paired alternatives:** the rejected option and why. Rule out non-modeled features with data-based reasons.

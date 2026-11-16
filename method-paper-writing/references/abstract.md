@@ -18,13 +18,14 @@ If questions 1 and 5 have no answer, the abstract is a promise, not a summary.
 
 **Source and variation.** The dichotomy slots follow the theory exemplar's information-choice and taste-signaling arc. Conditional results and economic interpretation recur across analytical components in the corpus. Delegation and capability are unverified extrapolations, and the slot counts are editorial adaptations.
 
-Choose the route that fits the formal question. The first route has nine slots:
+Choose the route that fits the formal question. The first route has nine slots plus Slot 4b:
 
-1. **Observed dichotomy:** "There exists a dichotomy in [market]: some [actors] [action 1], whereas others [action 2]."
-2. **Existing models cannot explain it,** in one sentence.
-3. **The offer:** a model that explains the divide.
+1. **Observed dichotomy:** "There exists a dichotomy in the [strategies / practices] of [actors in market]—some [actors] [action 1], whereas others [action 2]."
+2. **Existing models cannot explain it:** "This divide in [strategies] cannot be explained by existing [benchmark] models."
+3. **The offer:** "We offer a model of [phenomenon]." Keep the phenomenon broad; do not narrow it to a tactical variable or add track adjectives such as "analytical."
 4. **Modeling premise in plain words:** the dual role or the two forces built in.
-5. **Tradeoff, first half:** action 1 preserves [benefit X] but reduces [benefit Y].
+4b. **Dilemma:** "In this context, we show that [actor] faces a dilemma—if it [action 1], then [intermediate agent response]."
+5. **Tradeoff, first half, as a standalone deduction:** "[Action 1] thus preserves [X] but reduces [Y]."
 6. **Tradeoff, second half,** as a mirrored sentence: action 2 undermines [X] but increases [Y]. Keep the pair parallel in structure.
 7. **Conditions derived** under which each action occurs.
 8. **Emergence bonus** when established: in the dichotomy exemplar, the most tasteful product becomes the hit; a welfare result would be a separate adaptation requiring proof.
@@ -88,7 +89,7 @@ Name the setting early. Attach decisive conditions to the claims they bound, sta
 
 ## Sentence-Level Rules
 
-1. Verbs do the work: *we use, we find, we show, we develop, we evaluate, we derive*. No "leverages", "sheds light on", "delves into".
+1. Verbs do the work: *we use, we find, we show, we offer, we develop, we evaluate, we derive*. No "leverages", "sheds light on", "delves into". Use first-person possessives for the contributed method and final takeaways ("our framework," "our machine learning framework," "our results"), but leave standard analytical exercises unpossessed ("Theoretical and empirical counterfactuals show"). Do not stack reporting clauses in consecutive sentences ("We find that..." then "We further show that..."); let the phenomenon lead the follow-on decomposition ("These gains mainly stem from...").
 2. Keep multi-finding sentences intelligible; split them when their logic becomes hard to follow.
 3. State the comparator for a quantitative gain in the sentence or clear nearby context.
 4. No citations, no notation, no undefined acronyms.
@@ -97,6 +98,7 @@ Name the setting early. Attach decisive conditions to the claims they bound, sta
 7. State quantitative gains by regime when the result makes such a comparison.
 8. Repeat the tool's name when it aids clarity.
 9. No theorem numbers in the abstract.
+10. When a regime label is an ordinary English verb or noun, such as `cloak` or `flaunt`, use it directly as a verb on first mention, without a parenthetical or quotation-mark gloss.
 
 ## Checklist
 

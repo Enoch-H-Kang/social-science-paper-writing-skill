@@ -45,6 +45,7 @@ Use the prompts that apply to the paper. If a necessary answer is missing, fix t
 7. **Run the adversarial review** in `references/paper-review.md` and revise until no high-risk item is open.
 
 Use a brief reader-facing dependency explanation when the relationship among components would otherwise be difficult to follow. A topic sentence or ordinary roadmap can suffice. At a consequential transition, connect a completed finding to the next question if that connection helps; a section may instead end on its finding, interpretation, limitation, or implementation pointer.
+When a multi-subsection section opens with a roadmap immediately before setup, keep the roadmap navigational; explain economic tradeoffs, such as the option value of waiting, in the setup where the agent's choices appear.
 
 ## The Ten Rules
 
@@ -56,8 +57,8 @@ Use a brief reader-facing dependency explanation when the relationship among com
 6. **Quantify comparative gains when claimed.** Name the baseline and relevant regime; state where the gain vanishes when that is part of the result.
 7. **End on the strongest supported result, payoff, caution, boundary, or implication.** Attach decisive conditions to the claims they bound.
 8. **Keep intelligible economic explanation near formalism.** A definition or proposition can come first, followed by its interpretation and practical perspective where supported.
-9. **Crisp is a quality standard.** Short declarative sentences, one finding per sentence, numbers in sentences, terms defined by what an actor does before notation. Cut any sentence a reader must parse twice.
-10. **Defend consequential modeling choices.** Use required properties, tractability, institutional fit, or a business constraint. For an explanatory dichotomy, the model must generate both sides of the phenomenon. For other formal results, check that the statement answers the actual question under its assumptions.
+9. **Crisp is a quality standard.** Short declarative sentences, one finding per sentence, numbers in sentences, terms defined by what an actor does before notation where appropriate. Open formal `Model Setup` subsections with index sets such as $t \in \{1,\dots,T\}$ and $i \in \{1,\dots,N\}$ before institutional prose. Preserve explicit obstacle framing ("One challenge in our setting is..."), pedagogical signposts ("Intuitively," "of course"), and step-by-step causal connectors ("Therefore," "As a result,") in design justifications. Show intermediate arithmetic when a worked example substitutes for an algebraic formula (for example, "T = 100 × 3 = 300"). Cut any sentence a reader must parse twice.
+10. **Defend consequential modeling choices.** Use required properties, tractability, institutional fit, or a business constraint. When defending a simplifying simulation or modeling approximation, such as treating empirical sample averages as ground-truth parameters, preserve statistical degree hedges such as "relatively narrow confidence intervals." For an explanatory dichotomy, the model must generate both sides of the phenomenon. For other formal results, check that the statement answers the actual question under its assumptions.
 
 ## Method paper choices
 
@@ -95,7 +96,7 @@ Load only the needed file from `references/`:
 4. When making comparative performance claims, keep the benchmark protocol fair and disclosed, with tuned rivals and a relevant status-quo practice when applicable.
 5. Handle anomalies honestly: surface and resolve oddities, never bury them.
 6. Weaken unsupported claims in the abstract and introduction first.
-7. Keep notation stable: one symbol, one object, everywhere.
+7. Keep notation stable: one symbol, one object, everywhere. When introducing an evaluation metric, quote its verbatim table or figure axis label alongside the symbol (for example, 'the metric "Traffic/Impressions per headline" (which we represent using the notion τ)'). In later prose, pair the symbol with an operational English noun such as "multiplier" rather than writing only "values of [symbol]."
 
 ## Output Contract
 

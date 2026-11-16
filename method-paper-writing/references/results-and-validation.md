@@ -38,9 +38,10 @@ The statement and proof patterns for characterization and equivalence results ha
 
 **Source and variation.** Tested pure-method diagnosis, hybrid comparisons by horizon, ablation, and costs follow the ML-method exemplar. Claim-specific benchmarks recur across method papers. The figure/table arrangement and exact position of cost reporting are editorial options.
 
+0. **Evaluation and simulation design:** first state the holdout separation and its no-leakage consequence; next explain how simulated outcomes are generated from empirical distribution parameters; then attach the institutional source directly to the empirical warrant for treating those parameters as ground truth ("since each headline was tested on a large amount of traffic by Upworthy").
 1. **Top-line claim:** summarize supported performance across the tested regimes, using figures and pairwise comparisons where informative.
 2. **Versus each pure approach,** with the mechanism of the gain explained and its trajectory across regimes (horizon, traffic, sample size).
-3. **Where the gain is largest,** aligned with the regime the manager cares about.
+3. **Where the gain is largest,** aligned with the regime the manager cares about. End the evaluation-design setup by motivating which parameter regime the upcoming experiments most need to investigate and naming the concrete managerial action target, such as allocating impressions "to the right headline."
 4. **Embedded managerial finding, when supported:** describe the comparison with the status-quo practice.
 5. **Ablations** testing the design intuition; report improvements or reversals from removal as well as losses.
 6. **Cost and runtime accounting** when the advantage or implementation claim depends on them.
@@ -52,6 +53,7 @@ The statement and proof patterns for characterization and equivalence results ha
 2. Repeat headline numbers consistently where the paper makes quantitative claims.
 3. Cross-check a headline result independently when claiming corroboration or when model dependence makes that check material.
 4. Surface and resolve anomalies; never bury them.
+5. Anchor evaluation-design constraints and simulation parameter choices to descriptive data exhibits with explicit parenthetical cross-references (for example, "Since the number of headlines varies in our dataset (see Table 3)").
 
 ## Checklist
 
