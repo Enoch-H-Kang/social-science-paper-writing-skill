@@ -68,6 +68,7 @@ Open a multi-part model section with a compact roadmap paragraph mapping each mo
 5. **Consequential modeling choices** answer a challenge or trace to the institutional setting.
 6. **Use measured restricted-version failures** when they help explain the full framework; label the tested comparison.
 7. **Assemble model setup in the reader's building order.** Present environment and primitives first, weaving who observes what into the objects as they appear (observed before unobserved); then give the timeline or protocol. Present the objective or payoff as one component among the others under a plain component heading, never a question-form or evaluative heading. Stop at the environment: state objects without deriving consequences there, and give learning, estimation, and solution machinery its own section or place it with the results it serves.
+8. **Keep each track's conditions on its own track.** When a paper runs two or more tracks that rest on conditions of different strength — a main result under a weak capability condition and a variant under a stronger realizability or prediction condition — state the shared environment and the main track's conditions in the setup, and let each variant introduce its own stronger conditions where the variant itself begins, with the contrast in strength stated once, there. Do not pre-register a later section's stronger condition in the setup, and do not repeat "the main result does not need this" disclaimers at every boundary; a condition planted early and disclaimed repeatedly is a sign it sits in the wrong section.
 
 ## Clarity Check
 
@@ -84,3 +85,4 @@ Open a multi-part model section with a compact roadmap paragraph mapping each mo
 5. Is the notation unique, with one symbol per object?
 6. Are consequential modeling choices explained where they matter?
 7. For an explanatory dichotomy, does the model generate both sides? For another formal result, does it answer its question under its assumptions? Are restricted models or limiting cases shown when the claimed comparison depends on them?
+8. Does each condition sit on the track that uses it — shared and main-track conditions in the setup, a variant's stronger conditions introduced at the variant, with the strength contrast stated once?
