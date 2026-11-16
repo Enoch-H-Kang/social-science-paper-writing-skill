@@ -5,7 +5,7 @@ description: Write and revise empirical papers for INFORMS-style journals (Manag
 
 # Empirical Paper Writing
 
-Adapted from Master-cai/Research-Paper-Writing-Skills (itself from Prof. Peng Sida's notes, MIT License). That package teaches ML/CV/NLP conference writing: teaser figure, pipeline, beat SOTA, ablate. This skill keeps its discipline (one paragraph = one message, reverse outlining, claim–evidence checks, adversarial self-review) and replaces its substance. The target is an empirical paper in the house style of quantitative marketing and management journals: a paper whose contribution is an answer about a market.
+Adapted from an MIT-licensed research-paper-writing package. That package teaches ML/CV/NLP conference writing: teaser figure, pipeline, beat SOTA, ablate. This skill keeps its discipline (one paragraph = one message, reverse outlining, claim–evidence checks, adversarial self-review) and replaces its substance. The target is an empirical paper in the house style of quantitative marketing and management journals: a paper whose contribution is an answer about a market.
 
 ## Which skill should I use?
 
@@ -22,9 +22,9 @@ This skill works on its own. If the sibling is not installed, apply the track ru
 
 Before any sentence-level edit, the paper must pass this test in one breath:
 
-> A named actor in a real market faces a decision. Reasonable people disagree about what they should do, because [tradeoff]. We answer [2–3 questions] with [framework], using [data / variation / model]. We find [average effect], because [mechanism, with the rival explanation ruled out]. This implies [a concrete policy or design], worth [quantified gain vs. a named baseline], and it flips the naive intuition that [X], because [incentive].
+> A named actor in a real market faces [decision] under [relevant constraint or tension]. We answer [research questions] with [design or framework], using [data / variation / model]. We find [supported effects and mechanisms]. This implies [policy, caution, boundary, or other payoff], with [quantified gain versus a named baseline] when a gain is claimed.
 
-If any slot is empty, that is the paper's problem. Fix the slot, not the prose.
+Use the slots that match the paper's claims. If a necessary answer is missing, fix the argument before polishing prose.
 
 ## Core Workflow
 
@@ -39,13 +39,13 @@ If any slot is empty, that is the paper's problem. Fix the slot, not the prose.
 ## The Ten Rules
 
 1. **Start from what firms actually do, not from what methods cannot do.** The opening sentence is a plain fact about a market practice ("Trial offers are a common customer-acquisition strategy in subscription software"). Never open with a technical gap, a method name, or "recent advances in…".
-2. **Name the actors and their conflicting incentives.** Advertisers vs. ad network vs. users vs. regulator; firm vs. sophisticated vs. unsophisticated consumers. A paper without a tension between named actors has no story yet.
-3. **The puzzle is a tradeoff, and the title often names it.** Two nouns joined by "and" or "or". If you cannot state the tradeoff in two nouns, the contribution is not yet sharp.
+2. **Name the actors, objectives, and relevant constraint or tension.** Describe conflicting incentives when they exist; opposing effects or an unresolved decision can also motivate the paper.
+3. **State the decision tension plainly.** A two-noun tradeoff can work when the paper has one; an open design decision or opposing effects may call for a different formulation.
 4. **Prediction is not a contribution; the identified effect and the counterfactual are.** An ML model or an experiment earns its place by what it lets you compute that you could not observe: outcomes under a different policy, a different information regime, a different design. Pair the empirical component with an evaluation or economic component (policy-evaluation estimator, auction model) that carries the policy claim.
 5. **Findings are reported in a fixed order: average → mechanism → heterogeneity → policy.** Average effect first, flagged if surprising. Then mechanism: rule one theory out, find support for another, with those verbs, not "we explore mechanisms". Then heterogeneity that is substantively interpreted. Then the designed policy and its value.
 6. **Every gain is quantified against a named baseline.** A number, a denominator, a status quo with a name ("a 7% improvement over a uniform 30-day policy"). "Outperforms baselines" is banned.
-7. **End on the incentive or behavior that flips.** The last finding should reverse a naive intuition (more targeting does not maximize revenue; a longer trial does not maximize conversion) or tell an actor what to do differently. If the ending is "our approach works better", rewrite it around what an actor will now choose.
-8. **Intuition before math, always.** State the idea in plain words a smart non-specialist can repeat, then the formal version. State each contribution two ways: the technical answer, then the business perspective, ending in the simple rule a manager can run.
+7. **End on the strongest supported finding, caution, boundary, or implication.** State an incentive reversal or actor rule when the evidence supports one; qualify the claim where it appears.
+8. **Intuition before math, always.** State the idea in plain words a smart non-specialist can repeat, then the formal version. Give the technical answer and business perspective when relevant; state a manager rule when the result supports one.
 9. **Crisp is a quality standard.** Short declarative sentences, one finding per sentence, numbers inside the sentence, terms defined by what an actor does before they are defined by notation. Cut any sentence a reader must parse twice.
 10. **Identification is a writing obligation, not a robustness footnote.** The source of variation, the selection problem, and the heterogeneity that could bias the headline number are named in the main text, where the estimate is introduced, with the direction of the bias.
 

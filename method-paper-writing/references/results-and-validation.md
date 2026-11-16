@@ -9,7 +9,7 @@ Results follow the track arc. Each result gets a *why* paragraph, not just a num
 1. **Benchmark model result:** what happens without the key force. This is the default the main result deviates from.
 2. **Main proposition,** with a formal statement and a plain-words restatement adjacent to it. Proof deferred. Follow it with interpretation paragraphs tying it to real behavior.
 3. **Comparative statics with economic names:** parameter, direction, and the force that drives it, never bare monotonicity. One managerial interpretation each; flag counterintuitive ones.
-4. **Dichotomy check:** both observed regimes arise in different parameter regions.
+4. **Dichotomy check, when the model explains two observed regimes:** both arise in different parameter regions. Otherwise, check that the formal result answers the stated question under its assumptions.
 5. **Extensions,** each with its own proposition. Irrelevance results are results.
 6. **Every research question** from the introduction is answered by a numbered result.
 
@@ -34,8 +34,8 @@ Results follow the track arc. Each result gets a *why* paragraph, not just a num
 
 ## Shared Rules
 
-1. Every gain: a number, a named baseline, and a stated regime in one sentence.
-2. Repeat headline numbers verbatim across abstract, introduction, results, and conclusion.
+1. For a quantitative gain claim, give a number, named baseline, and relevant regime together. A formal capability claim needs a precise theorem and conditions instead of an invented percentage.
+2. Repeat headline numbers consistently where the paper makes quantitative claims.
 3. Cross-check one headline result with an independent (for example model-free) method when possible.
 4. Surface and resolve anomalies; never bury them.
 
@@ -44,8 +44,8 @@ Results follow the track arc. Each result gets a *why* paragraph, not just a num
 1. Does the results section follow the arc of the paper's track?
 2. Does each result carry a why paragraph?
 3. Is validation (fit, benchmark, limiting case) placed before any counterfactual or claim?
-4. Does every gain have a number, named baseline, and regime?
-5. Is the gain located where it is largest and where it vanishes?
+4. Do quantitative gain claims have a number, named baseline, and regime? If not applicable, record `not applicable — reason`.
+5. For comparative performance claims, is the gain located where it is largest and where it vanishes when relevant?
 6. Is one headline cross-checked independently?
 7. Are anomalies and negatives reported?
-8. Are headline numbers identical across sections?
+8. Are any headline numbers identical across sections, or `not applicable — reason`?

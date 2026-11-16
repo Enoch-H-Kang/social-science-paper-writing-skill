@@ -24,7 +24,7 @@ If a component has no answer to question 4, it is engineering, not a contributio
 6. **Benchmark model.** The no-X benchmark gives the main behavior its meaning as a deviation from it; present it before the main result.
 7. **Propositions with intuition first.** Plain-words statement of what happens, for whom, and why, adjacent to the formal statement. Proofs go to the appendix unless the proof is the intuition. Use italic-titled interpretive interludes to name the economic concept a result instantiates.
 8. **Comparative statics with economic names.** Parameter, direction, and driving force; never bare monotonicity.
-9. **The dichotomy check.** Show the model generates both observed regimes in different parameter regions.
+9. **The dichotomy check, when explaining two observed regimes.** Show the model generates both in different parameter regions. For other formal questions, check that the statement answers the question under its assumptions.
 10. **Extensions** are the three most obvious objections, each preempted with its own proposition, each extracting new insight.
 
 ## Structural / Estimation Framework
@@ -51,7 +51,7 @@ If a component has no answer to question 4, it is engineering, not a contributio
 
 1. **Intuition paragraph before formalism** at the top of every model or framework section: five to eight lines, no notation, that a coauthor from another field could repeat.
 2. **One notation, everywhere.** Keep a notation table while drafting.
-3. **Assumptions are numbered, named, and motivated by the setting,** with one sentence on what each rules out.
+3. **Material assumptions are identifiable, motivated, and connected to the claims they bound.** Numbering is an option; explain what each rules out.
 4. **Every modeling choice answers a challenge** or traces to the institutional setting.
 5. **Never write the framework as an improvement over a naive version of itself.**
 
@@ -66,7 +66,7 @@ If a component has no answer to question 4, it is engineering, not a contributio
 1. Does each component pass the five pre-writing questions?
 2. Is the track-specific order followed (theory, structural, or ML)?
 3. Does an intuition paragraph precede every formal block?
-4. Is each assumption numbered, motivated, and paired with what it rules out?
+4. Is each material assumption findable, motivated, and connected to the claim it bounds?
 5. Is the notation unique, with one symbol per object?
 6. Is every modeling choice defended on the spot?
-7. Does the model generate both sides of the phenomenon (theory), or are the nested inferior models kept on stage (structural), or do limiting cases nest the incumbents (ML)?
+7. For an explanatory dichotomy, does the model generate both sides? For another formal result, does it answer its question under its assumptions? Are nested inferior models kept on stage (structural), or do limiting cases nest the incumbents (ML)?

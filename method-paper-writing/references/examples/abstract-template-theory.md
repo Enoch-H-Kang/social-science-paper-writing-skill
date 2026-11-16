@@ -1,10 +1,12 @@
-# Abstract Template: Theory (Explain a Dichotomy or Price Delegation)
+# Abstract Template: Theory (Dichotomy, Delegation, or Capability)
 
-Nine slots. Content is generic and invented; replace every bracket.
+Choose one independent route. Content is generic and invented; replace every bracket.
+
+## Dichotomy route
 
 ```latex
 \section{Abstract}
-% Opening: observed dichotomy or price-of-delegation / mechanism-design decision problem
+% Opening: observed dichotomy
 % Gap: existing models cannot explain it
 % Offer: a model that explains the divide
 % Premise: the two roles or forces, in plain words
@@ -15,9 +17,9 @@ Nine slots. Content is generic and invented; replace every bracket.
 % Optional actor implication
 ```
 
-## Reusable skeleton
+### Reusable skeleton
 
-1. Choose one: **Observed dichotomy:** `There exists a dichotomy in [market]: some [actors] [action 1], whereas others [action 2].` **Price-of-delegation / mechanism-design decision problem:** `[Actor] cannot fully specify [decision] in advance; [delegate] can profitably shortcut the agreed process; we price or characterize a mechanism that prevents the shortcut.`
+1. `There exists a dichotomy in [market]: some [actors] [action 1], whereas others [action 2].`
 2. `This divide cannot be explained by existing [class of] models.`
 3. `We offer a model of [phenomenon] that explains it.`
 4. `The model's key premise is that [actors] play two roles at once: [role 1] and [role 2].`
@@ -27,14 +29,37 @@ Nine slots. Content is generic and invented; replace every bracket.
 8. `We also show that [an emergence or welfare result a reader can repeat in one sentence].`
 9. `[Optional: This implies that [actor] should [choice].]`
 
+## Delegation route
+
+1. `[Actor] cannot fully specify [decision] in advance, and [delegate] can [shortcut the intended process].`
+2. `This raises the question of [how to price or design a mechanism that addresses the shortcut].`
+3. `We characterize [mechanism] under [relevant information or contract conditions].`
+4. `Its key property is [plain-language property that changes the delegate's choice].`
+5. `We show that [formal result about the mechanism], provided [decisive condition].`
+6. `[Optional: The result lets [actor] [supported decision or action].]`
+
+## Optional capability route
+
+The adaptation to sufficiency or equivalence theorems is an extrapolation from enabling-method rhetoric, not an observed theorem template.
+
+1. `[Actor or analyst] seeks to [task or capability] in [setting].`
+2. `Whether [identified resources or procedure] suffice for [outcome] remains open under [relevant conditions].`
+3. `We construct [object or procedure] using [information or resources]; its enabling property is [plain-language property].`
+4. `We show that [property] is [sufficient / necessary / equivalent] for [precise outcome] under [decisive conditions].`
+5. `[Optional: This works because [intuition]; merge with the construction sentence when clearer.]`
+6. `[Optional: The result is bounded by [substantive boundary not already attached to the claim].]`
+7. `[Optional: This enables [task or consequence] / leaves [specific boundary] open.]`
+
+Keep sufficiency, necessity, and equivalence distinct. An asymptotic result does not establish finite-resource performance. No failed incumbent, mirrored actions, numerical win, or emergence bonus is required.
+
 ## Usage rules
 
-1. Sentences 5 and 6 must mirror each other in structure (same verbs, swapped benefits).
+1. In the dichotomy route, sentences 5 and 6 mirror each other in structure (same verbs, swapped benefits).
 2. No notation, no theorem numbers, no citations.
 3. Reuse the sentence logic, not the wording; delete optional slots cleanly.
 
 ## Checklist
 
-1. Is the mirrored pair intact?
+1. Does the selected route answer its actual question? For a dichotomy, is the mirrored pair intact?
 2. Is the abstract free of notation?
-3. Is the emergence sentence repeatable by a reader without the paper?
+3. Are the result and its decisive conditions stated precisely? If there is an emergence result, can a reader repeat it without the paper?

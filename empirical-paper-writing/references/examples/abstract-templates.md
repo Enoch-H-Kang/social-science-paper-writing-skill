@@ -14,8 +14,8 @@ Two fill-in skeletons. Content below is generic and invented; replace every brac
 % Policy value: named off-policy estimator, X% vs. a named baseline
 % Long-run extension (optional)
 % Heterogeneity as a who-gets-what rule
-% Cautionary twist (optional): end on the caveat, not the win
-% Implication for an actor
+% Cautionary twist (optional): may close on a scoped negative comparison
+% Alternative implication for an actor (optional after a cautionary close)
 ```
 
 ## Reusable skeleton A
@@ -29,7 +29,7 @@ Two fill-in skeletons. Content below is generic and invented; replace every brac
 7. `[Optional: In the long run, [result on long-run outcome].]`
 8. `[Segment A] should receive [treatment 1], whereas [segment B] should receive [treatment 2].`
 9. `[Optional: However, [rival methods] fail to beat [simple uniform rule], because [diagnosis].]`
-10. `Managers should [concrete guideline].`
+10. `[Optional alternative close: [Actor] should [concrete guideline supported by the result].]`
 
 ## Version B: Causal Data + Economic Model → Policy/Incentives
 
@@ -66,5 +66,5 @@ Two fill-in skeletons. Content below is generic and invented; replace every brac
 
 1. Does every number slot carry a named baseline in the same sentence?
 2. Is the version chosen by the paper's shape (experiment to policy, or causal data plus an economic model)?
-3. Is the last sentence an actor-facing implication?
+3. Does the last sentence carry the strongest supported payoff, finding, caution, boundary, or implication, with decisive conditions attached to the claims they bound?
 4. Do the optional slots you kept all have support in the body?

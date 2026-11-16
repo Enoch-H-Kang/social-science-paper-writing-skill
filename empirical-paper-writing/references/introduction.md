@@ -8,8 +8,8 @@ The introduction does in about four pages what the abstract does in one paragrap
 
 Answer before writing:
 
-1. What decision does a named actor face, and what inconsistency do we observe (firms choosing differently, a firm torn between goals, a regulator unsure)?
-2. What is the tradeoff at the center, in two nouns?
+1. What decision does a named actor face, and what observed practice or unresolved question motivates it?
+2. What are the actors' objectives and the relevant constraint or tension? Are incentives actually in conflict?
 3. What are the research questions, grouped into at most three sets?
 4. For each question, what makes it hard: which variation, prediction, or economic structure is missing?
 5. What does each framework component deliver, and which challenge does it map to?
@@ -31,7 +31,7 @@ Answer before writing:
 
 1. Open with scale or prevalence from the market, not the literature: what share of spend, how many firms, how common the practice.
 2. Explain why the practice exists: what it lets the actor do.
-3. Introduce the other side: who objects, who loses, what conflict follows.
+3. State the relevant constraint, opposing effect, or conflict. Name an opposing actor only when the setting has one.
 4. Close with the knowledge gap stated as a missing understanding, not a missing method, followed by the questions it blocks.
 
 Rules: keep it short (past about 1.5 pages, institutional detail belongs in the data section); every fact is load-bearing for a later question; no academic citations in the first paragraph. A motivating data figure inside the introduction is a legitimate power move when a challenge (dynamics, selection) can be shown rather than asserted.
@@ -73,7 +73,7 @@ Rules: name the primitives; sell each component by the counterfactual it unlocks
 
 Own modest gains with a mechanical explanation. A negative result can get equal billing.
 
-**Contributions.** Three short paragraphs, one per literature (substantive, methodological, managerial or policy). Each ends "Unlike [closest work], we…" naming what that work cannot do, respectfully. See `examples/contribution-statement-template.md`.
+**Contributions.** Use short paragraphs for the relevant audiences (substantive, methodological, managerial or policy), ordered by the paper's headline. Contrast closest work when a source supports the precise difference; the contrast need not end each paragraph. See `examples/contribution-statement-template.md`.
 
 ## Roadmap
 
@@ -95,3 +95,7 @@ Optional. When the findings preview already walks the paper's order, drop it. Ot
 3. Are the findings in the fixed order, each with its number and baseline?
 4. Is the incentive or behavioral implication present, and is it the last finding?
 5. Reverse outline: thesis → topic sentences → evidence. Is anything unmapped?
+
+## Scope Placement
+
+Identify the setting before drawing inferences. Put decisive conditions beside the claims they bound, explain material model assumptions with the setup, and gather other limitations later. A transferable framework may support context-dependent findings; distinguish the requirements for applying the framework from the conditions under which a result transfers.
